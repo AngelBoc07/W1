@@ -1,0 +1,545 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --verde: #086838;
+    --blanco_principal: #ffffff;
+    --blanco_secundario: #ccc;
+    --sombra: #1a1919;
+    --sombra_tarjeta: #ffff02;
+    --negro_principal: #000000;
+    --negro_secundario: #020202;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.seccion_caja_proyecto{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 0em 0px;
+    grid-auto-flow: row;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+        "seccion_proyecto_texto seccion_proyecto_texto seccion_proyecto_texto seccion_proyecto_texto"
+        "proyecto proyecto proyecto proyecto"
+        "proyecto_img proyecto_img proyecto_img proyecto_img";
+}
+
+.seccion_proyecto_texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1vw;
+    padding: calc(4vw);
+    padding-bottom: 1vw;
+    grid-area:seccion_proyecto_texto;
+}
+
+
+/* textos */
+.texto_proyecto_a {
+    font-family: 'Raleway', Orbitron, sans-serif;
+    font-size: 1.4vw;
+    font-weight: 700;
+    color: var(--verde);
+
+}
+
+.concatenar .texto_proyecto_b {
+    color: var(--negro_principal);
+}
+
+
+
+.concatenar .texto_proyecto_b1 {
+    color: var(--verde);
+}
+
+
+
+.texto_proyecto_c {
+    font-family: 'Raleway', Orbitron, sans-serif;
+    font-size: 1.4vw;
+    font-weight: 400;
+    margin-top: 1vw;
+}
+
+/*----------------------------------------------------------------*/
+
+.inicio_proyecto{
+    display: flex;
+    flex-direction: column;
+    padding: calc(4vw);
+}
+
+.proyecto{
+    font-family: 'Raleway', Orbitron, sans-serif;
+    font-size: 1.7vw;
+    font-weight: 400;
+    background-color: rgba(126, 124, 124, 0.2);
+    padding: 1vw;
+}
+
+.proyecto_img-title{
+    font-family: 'Orbitron', Raleway, sans-serif;
+    font-size: 2vw;
+    font-weight: 400;
+    text-align: center;
+    padding: calc(4vw);
+    color: var(--verde);
+}
+
+.contenedor_proyecto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contedores_proyecto_img{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px var(--verde);
+    padding: 1vw;
+}
+
+.contedores_proyecto_img h3{
+    font-family: 'Raleway', Orbitron, sans-serif;
+    font-size: 1.1vw;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2vw;
+    color: var(--verde);
+}
+
+.seccion_pro_img{
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    transition: transform 0.5s ease;
+    -webkit-transition: transform 0.5s ease;
+    -moz-transition: transform 0.5s ease;
+    -ms-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+}
+
+/*--------------------seccion proyecto lista-------------------------*/
+
+.seccion_proyecto_listas{
+    display: flex;
+    flex-direction: column;
+}
+
+.Proyecto_electricidad{
+    display: flex;
+    flex-direction: column;
+}
+
+.proyecto_electricidad_title{
+    font-family: 'Orbitron', Raleway, sans-serif;
+    font-size: 2vw;
+    font-weight: 400;
+    text-align: center;
+    color: var(--verde);
+}
+
+.subproyecto_electricidad{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2vw;
+}
+
+.proyecto_electricidad_lista{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1vw;
+}
+
+.proyecto_electricidad_lista h3{
+    font-family: 'Orbitron', Raleway, sans-serif;
+    font-size: 1.8vw;
+    font-weight: 400;
+}
+
+.proyecto_electricidad_lista ul{
+    height: 100%;
+    line-height: 6vw;
+}
+
+.proyecto_electricidad_lista ul li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7vw;
+    font-weight: 400;
+    list-style: none;
+}
+
+.proyecto_electricidad_img{
+    margin-bottom: 2vw;
+}
+
+.proyecto_electricidad_img .pe_img{
+    display: flex;
+    justify-content: center;
+}
+
+.proyecto_electricidad_cont_img{
+    width: 300px;
+    height: 250px;
+}
+
+.proyecto_electricidad_cont_img{
+    width: 300px;
+    height: 250px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.Proyecto_electricidad_right{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 100%;
+    text-align: right;
+}
+
+.proyecto_electricidad_lista_titulo{
+    margin-top: 3vw;
+    font-weight: 700;
+    color: var(--verde);
+}
+
+.proyecto_electricidad_lista .ul_li_generacion{
+    line-height: 4vw;
+    height: 100%;
+}
+
+.subproyecto_electricidad_generacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2vw;
+    padding: 7vw;
+}
+
+.subproyecto_electricidad_e{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin-top: 2vw;
+    padding: 7vw;
+    text-align: right;
+}
+
+.proyecto_electricidad_lista .ul_li_eficiencia{
+    line-height: 3.5vw;
+    height: 100%;
+}
+
+.subproyecto_electricidad_gas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2vw;
+    padding: 7vw;
+}
+
+.proyecto_electricidad_lista .ul_li_gas{
+    line-height: 6vw;
+    height: 100%;
+}
+
+.pe_img img:last-child {
+    margin-right: 0; 
+}
+
+  .pe_img img{
+    padding: 1vw;
+    border: solid 1px var(--verde);
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    transition: transform 0.5s ease;
+    -webkit-transition: transform 0.5s ease;
+    -moz-transition: transform 0.5s ease;
+    -ms-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    box-shadow: 
+    0 3px 3px rgba(0, 0, 0, 0.1),
+    0 2px 2px rgba(0, 0, 0, 0.1),
+    0 1px 1px rgba(0, 0, 0, 0.1); /* Sombras escalonadas */
+}
+
+.pe_img img:hover{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    box-shadow:     0 3px 3px rgba(8, 104, 56, 0.4),    0 2px 2px rgba(8, 104, 56, 0.5),    0 1px 1px rgba(8, 104, 56, 0.2);
+
+}
+
+
+
+
+
+
+
+/*----------------------------------*/
+
+ @media (max-width: 575.98px) {
+
+    .seccion_proyecto_texto .texto_proyecto_a {
+        font-size: 2.5vw;
+    }
+
+    .seccion_proyecto_texto .texto_proyecto_b {
+        font-size: 4vw;
+    }
+
+    .seccion_proyecto_texto .texto_proyecto_c {
+        font-size: 2.5vw;
+    }
+
+    .concatenar .texto_proyecto_b1 {
+        font-size: 3.9vw;
+    }
+
+    .proyecto{
+        font-size: 3vw;
+        padding: 2%;
+    }
+
+    .proyecto_img-title{
+        font-size: 3vw;
+    }
+
+    .contenedor_proyecto {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .contedores_proyecto_img{
+        width: 80px;
+        height: 120px;
+        padding: 1vw;
+        margin: 5px;
+    }
+    
+    .contedores_proyecto_img h3{
+        font-family: 'Raleway', Orbitron, sans-serif;
+        font-size: 2vw;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 1vw;
+        color: var(--verde);
+    }
+    
+    .seccion_pro_img{
+        width: 80px;
+        height: 100px;
+        max-width: 100%;
+        max-height: 100%;
+        transition: transform 0.5s ease;
+    } 
+
+/*------------------------------------------*/
+    .proyecto_electricidad_title{
+        font-family: 'Orbitron', Raleway, sans-serif;
+        font-size: 3vw;
+        font-weight: 400;
+    }
+
+    .proyecto_electricidad_lista{
+        padding: calc(4vw);
+        background-color: rgba(255, 255, 255, 0.4);
+        margin-bottom: 3vw;
+    }
+
+    .proyecto_electricidad_lista h3{
+        font-family: 'Orbitron', Raleway, sans-serif;
+        font-size: 2.5vw;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 2vw;
+    }
+    
+    .proyecto_electricidad_lista ul{
+        height: 100%;
+        line-height: 7vw;
+    }
+    
+    .proyecto_electricidad_lista ul li{
+        font-family: 'Raleway', sans-serif;
+        font-size: 2.2vw;
+        font-weight: 400;
+        list-style: none;
+        text-align: center;
+    }
+
+    .subproyecto_electricidad {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 2vw;
+    }
+
+    .proyecto_electricidad_cont_img{
+        width:  140px;
+        height: 100px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 1vw;
+        border: solid 1px var(--verde);
+    }
+
+    .pe_img img:last-child {
+        margin-right: 0; 
+      }
+
+    .Proyecto_electricidad_right{
+        flex-direction: column;
+    }
+
+    .subproyecto_electricidad_generacion {
+        flex-direction: column;
+    }
+
+    .subproyecto_electricidad_e {
+        flex-direction: column;
+    }
+
+    .subproyecto_electricidad_gas{
+        flex-direction: column;
+    }
+ }
+
+ @media (max-width: 768px) {
+    .contedores_proyecto_img{
+        width: 145px;
+        height: 160px;
+    }
+
+    .seccion_pro_img{
+        width: 125px;
+        height: 100px;
+        margin-bottom: 1vw;
+    }
+
+    .proyecto_electricidad_cont_img{
+        width:  180px;
+        height: 140px;
+    }
+
+    .proyecto_electricidad_lista ul{
+        height: 100%;
+        line-height: 6vw;
+    }
+
+    .proyecto_electricidad_lista .ul_li_gas{
+        line-height: 5vw;
+        height: 100%;
+    }
+
+    
+ }
+
+/*----------------------------------------------------*/
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .contedores_proyecto_img{
+        width: 150px;
+        height: 200px;
+    }
+
+    .seccion_pro_img{
+        width: 125px;
+        height: 100px;
+        margin-bottom: 1vw;
+    }
+
+    .contedores_proyecto_img h3{
+        font-family: 'Raleway', Orbitron, sans-serif;
+        font-size: 1.5vw;
+        font-weight: 700;
+    }
+
+    .pe_img{
+        margin-right: 1vw;
+    }
+
+    .proyecto_electricidad_cont_img{
+        width:  180px;
+        height: 140px;
+    }
+
+    .proyecto_electricidad_lista ul{
+        height: 100%;
+        line-height: 7vw;
+    }
+
+    .proyecto_electricidad_lista .ul_li_gas{
+        line-height: 5vw;
+        height: 100%;
+    }
+}
+
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width: 991.98px) {
+
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        .contedores_proyecto_img{
+            width: 220px;
+            height: 220px;
+        }
+    
+        .seccion_pro_img{
+            width: 155px;
+            height: 100px;
+            margin-bottom: 1vw;
+        }
+
+        .proyecto_electricidad_cont_img{
+            width:  200px;
+            height: 150px;
+        }
+    
+        .proyecto_electricidad_lista ul{
+            height: 100%;
+            line-height: 5vw;
+        }
+
+        .proyecto_electricidad_lista .ul_li_generacion{
+            line-height: 3vw;
+            height: 100%;
+        } 
+
+        .proyecto_electricidad_lista .ul_li_eficiencia{
+            line-height: 3vw;
+            height: 100%;
+        }
+    
+        .proyecto_electricidad_lista .ul_li_gas{
+            line-height: 5vw;
+            height: 100%;
+        }
+    }
+

@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --verde: #086838;
+  --blanco_principal: #ffffff;
+  --blanco_secundario: #ccc;
+  --sombra: #1a1919;
+  --sombra_tarjeta: #ffff02;
+  --negro_principal: #000000;
+  --negro_secundario: #020202;
+
+}
+
+/*---------------contenido_caja--------------------*/
+
+.contenido_caja {
+  grid-column: 1 / span 4;
+  margin-top: calc(9%);
+}
+
+.caja {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Logotipo Logotipo Logotipo";
+
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url("../img/7.jpg"); */
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 150%;
+  background-position-x: 20%;
+  background-position-y: 3%;
+  align-items: end;
+  justify-items: end;
+  margin-top: 2vh;
+  padding: calc(2vw);
+  position: relative;
+  width: 100%;
+  height: 77vh;
+  overflow: hidden;
+  border-radius: 10px; /* Ajusta el radio de borde según tus preferencias */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.caja_img_uno {
+  display: grid;
+  grid-row: 1 / span 2;
+}
+
+.Marca_empresa {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 300;
+  font-size: 3vw;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: calc(2vw + 16px);
+  text-shadow: var(--negro_principal) 2px 2px 0; 
+  z-index: 10;
+  grid-area: Logotipo;
+}
+
+.Logotipo {
+  display: flex;
+  color: var(--blanco_secundario);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5vw;
+  text-shadow: var(--sombra) 2px 2px 0;
+  z-index: 10;
+  grid-area: Logotipo;
+}
+
+
+/* Responsive  Styles --------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+  .caja {
+    height: 35vh;
+    margin-top: 1vh;
+    padding: calc(4vw);
+  }
+
+  .Marca_empresa {
+    font-size: 2.5vw;
+  }
+
+}
+
+@media (max-width: 575.98px) {
+
+
+  .caja {
+    height: 38vh;
+    margin-top: 8vh;
+  }
+
+  .Logotipo .logotipo_titulo_movil {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vw;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .caja {
+    height: 49vh;
+    margin-top: 5vh;
+  }
+
+  .Marca_empresa {
+    font-size: 2.3vw;
+    margin-bottom: calc(1vw + 13px);
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .caja {
+    height: 45vh;
+    margin-top: 2vh;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .caja {
+    height: 60vh;
+    margin-top: 1vh;
+  }
+}

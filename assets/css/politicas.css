@@ -1,0 +1,129 @@
+/*********MENU POLITICAS DE SEGURIDAD**********************/
+
+.header-politicas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 90px;
+  }
+
+.logo-menu {
+    margin: 4px 0;
+    width: 250px;
+    height: 100px;
+    padding: 0 40px;
+    line-height: 80px;
+  }
+
+.nav-politicas{
+    font-family: "Orbitron", sans-serif;
+    font-size: 2.2vw;
+    color: var(--verde);
+  }
+  
+  .fa-circle-xmark{
+    font-size: 2.5vw;
+  }
+  
+  .nav-menu-close {
+    border-color: var(--blanco_principal);
+    padding: 0.6em 2.3em;
+    cursor: pointer;
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: var(--verde);
+    text-decoration: none;
+  }
+
+
+
+ /*********POLITICAS DE SEGURIDAD**********************/ 
+
+ 
+
+.politicas{
+    padding: calc(4vw);
+    font-family: 'Raleway', Orbitron, sans-serif;
+    font-size: 1.7vw;
+    font-weight: 400;
+}
+
+
+.subtitulos-parrafos{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.listados-politicas{
+    padding: calc(4vw);
+}
+
+/***********RESPONSIVE*************/
+@media (max-width: 575.98px) {
+
+  .header-politicas{
+    justify-content: space-around;
+  }
+
+  .politicas-logo-menu {
+    display: none;
+  }
+
+  .nav-politicas{
+    font-size: 3.7vw;
+    line-height: 100px;
+  }
+  
+  .fa-circle-xmark{
+    font-size: 4.5vw;
+    margin-right: 8px;
+  }
+  
+  .nav-menu-close {
+    font-size: 4vw;
+    padding: 0;
+  }
+  
+  .politicas{
+
+    font-size: 2.4vw;
+}
+}
+
+@media (max-width: 768px) {
+  .header-politicas{
+    justify-content: space-around;
+  }
+
+  .logo-menu {
+    display: none;
+  }
+
+  .nav-politicas{
+    font-size: 3.7vw;
+    line-height: 115px;
+  }
+  
+  .fa-circle-xmark{
+    font-size: 4.5vw;
+    margin-right: 8px;
+  }
+  
+  .nav-menu-close {
+    font-size: 4vw;
+    padding: 0;
+  }
+  
+  .politicas{
+
+    font-size: 2.4vw;
+}
+}

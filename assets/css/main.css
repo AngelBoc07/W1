@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --verde: #086838;
+  --blanco_principal: #ffffff;
+  --blanco_secundario: #ccc;
+  --sombra: #1a1919;
+  --sombra_tarjeta: #ffff02;
+  --negro_principal: #000000;
+  --negro_secundario: #020202;
+}
+.header {
+  background-color: transparent;
+  /* height: 110px; */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+}
+.header.white-bg {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.transitioning {
+  transition: background-color 0.5s ease;
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -ms-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+}
+

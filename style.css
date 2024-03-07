@@ -1,0 +1,77 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --verde: #086838;
+  --blanco_principal: #ffffff;
+  --blanco_secundario: #ccc;
+  --sombra: #1a1919;
+  --sombra_tarjeta: #ffff02;
+  --negro_principal: #000000;
+  --negro_secundario: #020202;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-family: 'Raleway', sans-serif;
+  background-image: url("./assets/img/FondoIA.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 200%;
+  background-position-x: 20%;
+  background-position-y: 3%;
+  grid-column: 1 / span 4;
+  
+}
+
+/* Division entre palabras titulos */
+
+.concatenar {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5vw;
+  font-weight: 700;
+  border-bottom: 2px solid var(--verde);
+  line-height: 4vw;
+}
+
+.concatenar .texto_espacio {
+  margin: 0.5vw;
+}
+
+section[id] {
+  scroll-margin: 85px;
+}
+
+/* Responsive  Styles --------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+  section[id] {
+    scroll-margin: 90px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .concatenar {
+    line-height: 6vw;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+
+  body {
+    background-size: 270%;
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+}

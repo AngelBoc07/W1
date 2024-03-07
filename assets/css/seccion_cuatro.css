@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --verde: #086838;
+  --blanco_principal: #ffffff;
+  --blanco_secundario: #ccc;
+  --sombra: #1a1919;
+  --sombra_tarjeta: #ffff02;
+  --negro_principal: #000000;
+  --negro_secundario: #020202;
+}
+
+.seccion_caja_origen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1vw 4vw 1vw 4vw;
+}
+
+.texto_cuatro_a {
+  font-family: 'Orbitron', Relaway, sans-serif;
+  font-size: 2.3vw;
+  font-weight: 700;
+  color: var(--verde);
+  border-bottom: 2px solid var(--verde);
+  line-height: 4vw;
+}
+
+.parrafo_seccion_cuatro {
+  display: flex;
+  justify-content: center;
+  font-family: 'Raleway', Orbitron, sans-serif;
+  font-size: 1.7vw;
+  font-weight: 400;
+  color: var(--negro_principal);
+  text-align: end;
+  padding: 0 4vw 1vw 4vw;
+}
+
+/* Tarjeta */
+
+.seccion_tarjetas_cuatro {
+  display: flex;
+  flex-direction: row;
+  padding: calc(4vw);
+  flex-wrap: wrap;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url("/assets/img/7.jpg");
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 150%;
+  background-position-x: 20%;
+  background-position-y: 3%;
+  padding: calc(4vw);
+  justify-content: center;
+}
+
+
+.img_card_cuatro {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 40vh;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  -webkit-transition: transform 0.5s ease, box-shadow 0.5s ease;
+  -moz-transition: transform 0.5s ease, box-shadow 0.5s ease;
+  -ms-transition: transform 0.5s ease, box-shadow 0.5s ease;
+  -o-transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.img_card_container_cuatro {
+  width: 110px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_card_container_cuatro img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.img_card_content_cuatro {
+  padding: 5px;
+  text-align: center;
+}
+
+.title_cuatro,
+.description_cuatro {
+  margin: 0;
+  font-size: 1.2vw;
+  text-align: center;
+  color: var(--negro_principal);
+  transition: transform 0.5s ease;
+}
+
+.title_cuatro {
+  font-size: 1.3vw;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: var(--verde);
+  font-family: 'Orbitron', Relaway, sans-serif;
+}
+
+.img_card_cuatro:hover {
+  transform: rotateY(10deg);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.img_card_cuatro:hover .img_card_container_cuatro img {
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  color: var(--blanco_principal);
+}
+
+.img_card_cuatro:hover .img_card_content_cuatro {
+  transform: translateZ(0px);
+  -webkit-transform: translateZ(0px);
+  -moz-transform: translateZ(0px);
+  -ms-transform: translateZ(0px);
+  -o-transform: translateZ(0px);
+  color: var(--blanco_principal);
+}
+
+.img_card_cuatro:before,
+.img_card_content_cuatro::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  z-index: -1;
+  transition: opacity 0.5s ease;
+  opacity: 0;
+}
+
+.img_card_cuatro:hover:before {
+  opacity: 1;
+}
+
+
+.img_card_cuatro:hover .title_cuatro,
+.img_card_cuatro:hover .description_cuatro {
+  font-family: 'Relaway', Orbitron, sans-serif;
+  color: var(--blanco_principal);
+  font-size: 1.7vw;
+  transition: transform 0.8s ease;
+  -webkit-transition: transform 0.8s ease;
+  -moz-transition: transform 0.8s ease;
+  -ms-transition: transform 0.8s ease;
+  -o-transition: transform 0.8s ease;
+}
+
+/*-*/
+
+.seccion_cuatro_img {
+  width: 150px;
+  height: 150px;
+  color: var(--blanco_principal);
+  filter: drop-shadow(-10px 7px 10px green);
+  -webkit-filter: drop-shadow(-10px 7px 10px green);
+}
+
+.img_card_cuatro:hover .img_card_container_cuatro img {
+  transform: scale(2);
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  -o-transform: scale(2);
+  filter: drop-shadow(10px 7px 10px white);
+  -webkit-filter: drop-shadow(10px 7px 10px white);
+}
+
+
+
+/* Responsive  Styles --------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  .seccion_caja_origen {
+    font-size: 3vw;
+    margin-top: 5vw;
+  }
+
+  .img_card_cuatro {
+    width: 160px;
+    height: 20vh;
+  }
+
+  .seccion_cuatro_img {
+    width: 100px;
+    height: 200px;
+  }
+
+  .parrafo_seccion_cuatro {
+    font-size: 1.8vw;
+  }
+
+  .img_card_cuatro:hover .img_card_container_cuatro img {
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+  }
+
+  .title_cuatro {
+    font-size: 1.4vw;
+    margin-bottom: 5px;
+    margin-top: 30px;
+  }
+
+  .img_card_cuatro:hover .title_cuatro,
+  .img_card_cuatro:hover .description_cuatro {
+    font-size: 2.2vw;
+  }
+
+}
+
+@media (max-width: 575.98px) {
+  .seccion_caja_origen {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vw;
+    padding: 0 4vw 0 4vw;
+  }
+
+  .texto_cuatro_a {
+    font-size: 4vw;
+    margin-bottom: 2vw;
+  }
+
+  .parrafo_seccion_cuatro {
+    font-size: 3vw;
+    font-weight: 400;
+    color: var(--negro_principal);
+    margin-bottom: 4vw;
+  }
+
+  .img_card_cuatro {
+    width: 120px;
+    height: 20vh;
+  }
+
+  .seccion_cuatro_img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .img_card_cuatro:hover .img_card_container_cuatro img {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+  .title_cuatro {
+    font-size: 2vw;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .img_card_cuatro:hover .title_cuatro,
+  .img_card_cuatro:hover .description_cuatro {
+    font-size: 2.6vw;
+  }
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .seccion_caja_origen {
+    margin-top: 2vw;
+    padding: 0 4vw 0 4vw;
+  }
+
+  .parrafo_seccion_cuatro {
+    font-size: 2vw;
+    font-weight: 400;
+    color: var(--negro_principal);
+  }
+
+  .img_card_cuatro {
+    width: 140px;
+    height: 40vh;
+  }
+
+  .seccion_cuatro_img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .img_card_cuatro:hover .img_card_container_cuatro img {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+  .title_cuatro {
+    font-size: 1.8vw;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .img_card_cuatro:hover .title_cuatro,
+  .img_card_cuatro:hover .description_cuatro {
+    font-size: 2.2vw;
+  }
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .img_card_cuatro {
+    width: 140px;
+    height: 20vh;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .img_card_cuatro {
+    width: 180px;
+    height: 30vh;
+  }
+}

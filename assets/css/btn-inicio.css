@@ -1,0 +1,61 @@
+/*-------UP-----*/
+
+.btn-up{
+    width: 50px;
+    height: 50px;
+    outline: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid rgba(8, 104, 56,0.3);
+    background-color: rgba(8, 104, 56,0.3);
+    color: var(--blanco_principal);
+    position: fixed;
+    right: 20px;
+    left: 95%;
+    bottom: 20px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+  }
+  
+  .btn-up:hover{
+    border: 1px solid rgba(8, 104, 56,0.6);
+    background-color: rgba(8, 104, 56,0.6);
+  }
+  
+  .hide{
+    opacity: 0;
+  }
+  
+  .active_btn{
+    opacity: 1;
+  }
+
+
+@media (max-width: 575.98px) {
+    .btn-up{
+        display: block;
+        width: 30px;
+        height: 30px;
+        right: 20px;
+        left: 90%;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .btn-up{
+        display: block;
+        width: 30px;
+        height: 30px;
+        right: 20px;
+        left: 92%;
+    }
+
+
+}

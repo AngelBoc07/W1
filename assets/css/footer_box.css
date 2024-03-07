@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --verde: #086838;
+  --blanco_principal: #ffffff;
+  --blanco_secundario: #ccc;
+  --sombra: #1a1919;
+  --sombra_tarjeta: #ffff02;
+  --negro_principal: #000000;
+  --negro_secundario: #020202;
+
+}
+
+footer {
+  grid-column: 1 / span 4;
+  grid-row: 3;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  color: var(--blanco_principal);
+  padding: 0 0 0 0;
+}
+
+.contacto {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "footer_cajas footer_cajas footer_cajas footer_cajas"
+    "footer_cajas_uno footer_cajas_uno footer_cajas_dos footer_cajas_dos"
+    "footer_copy footer_copy footer_copy footer_copy";
+}
+
+.footer_cajas {
+  justify-self: center;
+  align-self: center;
+  grid-area: footer_cajas;
+  border-top: 2px solid var(--blanco_principal);
+  border-bottom: 2px solid var(--blanco_principal);
+}
+
+.footer_cajas h2 {
+  display: flex;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3vw;
+  font-weight: 700;
+  color: var(--verde);
+  line-height: 8vw;
+  justify-content: center;
+}
+
+.footer_cajas p:nth-child(2) {
+  display: flex;
+  font-family: 'Raleway', Orbitron, sans-serif;
+  font-size: 2vw;
+  font-weight: 400;
+  color: var(--verde);
+  margin-bottom: 2vw;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.footer_cajas_uno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  grid-area: footer_cajas_uno;
+}
+
+.footer_cajas_uno h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2vw;
+  font-weight: 500;
+  color: var(--verde);
+}
+
+/*--------------------------------------------------------------*/
+
+.footer_datos {
+  font-style: normal;
+  font-family: 'Raleway', Orbitron, sans-serif;
+  font-size: 1.5vw;
+  font-weight: 400;
+  color: var(--verde);
+  margin-top: 1vw;
+}
+
+.footer_datos .footer_datos_lista {
+  list-style: none;
+  color: var(--negro_principal);
+  margin-bottom: 1vw;
+}
+
+.footer_datos .fa-estilo {
+  font-size: 1.5vw;
+  font-weight: 700;
+  margin-right: 10px;
+  color: var(--verde);
+}
+
+.footer_datos span {
+  font-weight: 700;
+  color: var(--verde);
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+.footer_cajas_dos {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  align-content: space-between;
+  grid-area: footer_cajas_dos;
+}
+
+.footer_cajas_dos i {
+  color: var(--verde);
+
+}
+
+.footer_cajas_dos h2 {
+  display: flex;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2vw;
+  font-weight: 500;
+  margin-bottom: 1vw;
+  color: var(--verde);
+}
+
+
+
+.footer_cajas_dos p {
+  color: var(--negro_principal);
+  font-family: 'Raleway', Orbitron, sans-serif;
+  font-size: 1.5vw;
+  font-weight: 400;
+  line-height: 2vw;
+}
+
+.footer_cajas_dos ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_cajas_dos li {
+  margin-right: 10px;
+}
+
+.footer_cajas_dos li:last-child {
+  margin-right: 0;
+}
+
+.footer_cajas_dos li a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--verde);
+  border-radius: 50%;
+  text-decoration: none;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.footer_cajas_dos li a i {
+  font-size: 3.2vw;
+  color: var(--verde);
+}
+
+.copy {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  justify-content: space-around;
+  line-height: 50px;
+  background-color: var(--verde);
+  grid-area: footer_copy;
+}
+
+.copy p {
+  color: var(--blanco_principal);
+  font-family: 'Raleway', Orbitron, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.footer-politicos{
+  cursor: pointer;
+}
+
+.footer-politicos a{
+  color: var(--blanco_principal);
+  font-family: 'Raleway', Orbitron, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+
+
+/* Responsive  Styles --------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 575.98px) {
+
+  .footer_cajas p:nth-child(2) {
+    font-size: 3vw;
+  }
+
+  .footer_cajas_uno {
+    font-size: 1.5vw;
+  }
+
+  .footer_datos {
+    font-size: 2vw;
+  }
+
+  .footer_datos .fa-estilo {
+    font-size: 2vw;
+  }
+
+
+
+  .copy {
+    line-height: 30px;
+  }
+
+}
