@@ -196,17 +196,14 @@ mapsdesktop.addEventListener('mouseleave', function(event) {
 
 
 
-// Verificar si el navegador admite la función matchMedia
-if (window.matchMedia) {
-  // Consulta de medios para verificar si el modo oscuro está activado
-  var darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-
-  // Verificar si la consulta de medios coincide con el modo oscuro
-  if (darkModeMediaQuery.matches) {
-      // Si coincide, desactivar el modo oscuro
-      document.body.classList.remove('dark-theme');
-  }
+// Función para establecer el tema claro
+function establecerTemaClaro() {
+  document.body.classList.remove('dark-theme');
 }
+
+// Llama a la función para establecer el tema claro al cargar la página
+window.addEventListener('load', establecerTemaClaro);
+
 
 
 
