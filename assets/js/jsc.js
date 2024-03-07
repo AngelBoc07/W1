@@ -151,6 +151,51 @@ document.addEventListener('click', (e) => {
 });
 
 
+// var mapsdesktop = document.querySelector('.section_maps_desktop');
+// var pins = document.querySelectorAll('.pin');
+// var maps = document.querySelectorAll('.mps');
+// var timer; // Variable para almacenar el temporizador
+
+// function handleMouseEnter(pinIndex) {
+//     clearTimeout(timer); // Limpiar cualquier temporizador pendiente
+//     mapsdesktop.style.display = 'flex';
+//     maps[pinIndex].style.display = 'flex';
+//     setTimeout(function() {
+//         mapsdesktop.style.opacity = '1'; 
+//     }, 10);
+// }
+
+// function handleMouseLeave() {
+//     timer = setTimeout(function() {
+//         mapsdesktop.style.opacity = '0';
+//         setTimeout(function() {
+//             mapsdesktop.style.display = 'none';
+//             maps.forEach(map => map.style.display = 'none');
+//         }, 200);
+//     }, 200); // Incrementar el tiempo de espera antes de ocultar
+// }
+
+// pins.forEach((pin, index) => {
+//     pin.addEventListener('mouseenter', function() {
+//         handleMouseEnter(index);
+//     });
+
+//     pin.addEventListener('mouseleave', function() {
+//         handleMouseLeave();
+//     });
+// });
+
+// // Añadir un event listener al elemento mapsdesktop para detectar cuando el cursor sale de su área
+// mapsdesktop.addEventListener('mouseleave', function(event) {
+//     // Verificar si el cursor sale de mapsdesktop y no entra en otro elemento hijo inmediato
+//     if (!event.relatedTarget || !mapsdesktop.contains(event.relatedTarget)) {
+//         maps.forEach(map => map.style.display = 'none');
+//         handleMouseLeave();
+//     }
+// });
+
+
+
 var mapsdesktop = document.querySelector('.section_maps_desktop');
 var pins = document.querySelectorAll('.pin');
 var maps = document.querySelectorAll('.mps');
@@ -166,13 +211,11 @@ function handleMouseEnter(pinIndex) {
 }
 
 function handleMouseLeave() {
-    timer = setTimeout(function() {
-        mapsdesktop.style.opacity = '0';
-        setTimeout(function() {
-            mapsdesktop.style.display = 'none';
-            maps.forEach(map => map.style.display = 'none');
-        }, 200);
-    }, 200); // Incrementar el tiempo de espera antes de ocultar
+    mapsdesktop.style.opacity = '0'; // Ocultar inmediatamente
+    setTimeout(function() {
+        mapsdesktop.style.display = 'none';
+        maps.forEach(map => map.style.display = 'none');
+    }, 200);
 }
 
 pins.forEach((pin, index) => {
@@ -190,10 +233,10 @@ mapsdesktop.addEventListener('mouseleave', function(event) {
     // Verificar si el cursor sale de mapsdesktop y no entra en otro elemento hijo inmediato
     if (!event.relatedTarget || !mapsdesktop.contains(event.relatedTarget)) {
         maps.forEach(map => map.style.display = 'none');
+        clearTimeout(timer); // Limpiar el temporizador para evitar que se oculte
         handleMouseLeave();
     }
 });
-
 
 
 
