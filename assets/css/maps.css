@@ -434,13 +434,13 @@
   
 
   .section_maps_desktop {
-    display: flex;
+    /* display: flex; */
     grid-area: section_maps_inf;
 
   }
 
   .maps-target {
-    display: flex;
+    /* display: flex; */
     height: auto;
     width: 100%;
     padding: 20px;
