@@ -10,10 +10,10 @@ try {
       // "titulo-general-dos": "¡Agregamos valor a tu Compañía!",
       //Menu de Navegación
       "menu-uno": "Nosotros",
-      "menu-dos": "Servicios",
+      // "menu-dos": "Servicios",
       "menu-tres": "Equipo",
       "menu-cuatro": "Contacto",
-      "menu-cinco": "Proyectos",
+      "menu-cinco": "Programas",
       "menu-inicio": "Inicio",
       //seccion dos - Nosotros
       "nosotros-titulo": "SMIN - Energy Service Companies (ESCOs)",
@@ -205,10 +205,10 @@ try {
       // "titulo-general-dos": "We add value to your Company!",
       //Menu de Navegación
       "menu-uno": "About us",
-      "menu-dos": "Service",
+      // "menu-dos": "Service",
       "menu-tres": "Team",
       "menu-cuatro": "Contact",
-      "menu-cinco": "Projects",
+      "menu-cinco": "Programs",
       "menu-inicio": "Home",
       //seccion dos - Nosotros
       "nosotros-titulo": "SMIN - Energy Service Companies (ESCOs)",
