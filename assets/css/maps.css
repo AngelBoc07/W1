@@ -149,6 +149,7 @@
 .pin-colombia {
   top: 59%;
   left: 27%;
+  cursor: pointer;
 }
 
 .maps-colombia {
@@ -160,6 +161,7 @@
 .pin-estados-unidos {
   top: 38%;
   left: 20%;
+  cursor: pointer;
 }
 
 .maps-eu {
@@ -172,6 +174,7 @@
 .pin-portugal {
   top: 39%;
   left: 44%;
+  cursor: pointer;
 }
 
 .maps-portugal {
@@ -183,6 +186,7 @@
 .pin-paises-bajos {
   top: 29%;
   left: 48%;
+  cursor: pointer;
 }
 
 .maps-paisesBajos {
@@ -434,13 +438,13 @@
   
 
   .section_maps_desktop {
-    /* display: flex; */
+    display: none;
     grid-area: section_maps_inf;
 
   }
 
   .maps-target {
-    /* display: flex; */
+    display: none;
     height: auto;
     width: 100%;
     padding: 20px;
@@ -570,6 +574,10 @@
     font-size: 0.6em;
   }
 
+  .section_maps_inf {
+    display: none;
+  }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -583,6 +591,10 @@
 
   .pin span {
     font-size: 0.6em;
+  }
+
+  .section_maps_inf {
+    display: flex;
   }
 }
 
@@ -604,5 +616,9 @@
 
   .maps-inf span {
     font-size: 0.7em;
+  }
+
+  .section_maps_inf {
+    display: none;
   }
 }
