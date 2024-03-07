@@ -341,6 +341,11 @@
     width: 140px;
     height: 20vh;
   }
+
+  .parrafo_seccion_cuatro {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: calc(4vw);
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
