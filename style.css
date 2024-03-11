@@ -79,3 +79,9 @@ section[id] {
     max-width: 100%;
   }
 }
+
+@media (min-width: 1680px) {
+  .seccion_dos {
+    margin: 0 5%;
+  }
+}

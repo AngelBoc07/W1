@@ -1,7 +1,7 @@
 import translations from "./translations.js";
 
 document.addEventListener("DOMContentLoaded", function () {
-  let lang = "es"; // Por defecto, cargar español
+  let lang = "en"; // Por defecto, cargar español
 
   // Función para traducir los elementos
   function translateElements() {
