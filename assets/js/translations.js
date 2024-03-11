@@ -140,6 +140,7 @@ try {
       "footer-informacion": "Mayor Información",
 
       "footer-email": "Email:",
+      "footer-correo": "cco@sminsl.com",
       "footer-whatsApp": "WhatsApp:",
       "footer-phone": "Celular:",
 
@@ -330,6 +331,7 @@ try {
       "footer-informacion": "Further Information",
 
       "footer-email": "Email:",
+      "footer-correo": " cco@sminsl.com",
       "footer-whatsApp": "WhatsApp:",
       "footer-phone": "Cellphone:",
 
