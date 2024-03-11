@@ -267,12 +267,12 @@ try {
       "seccion-cinco-card_1_T1": "Lidia Andreina Amaya Fonseca",
       "seccion-cinco-card_1_S2": "Administrator",
       "seccion-cinco-card_1_D1":
-      "Expert in public management; public democratization processes; public institutional modernization; specialist in senior management",
+      "Expert in public management; public democratization processes; public institutional modernization; specialist in senior management.",
 
       "seccion-cinco-card_2_T1": "Marco Antonio Ruiz Rueda",
       "seccion-cinco-card_2_S2": "Systems Engineer",
       "seccion-cinco-card_2_D1":
-        "Expert in Artificial Intelligence; optimization and event prediction; and Smart Cities; Master of Science in Computer Science and Master of Science in Design, Management, and Administration of projects",
+        "Expert in Artificial Intelligence; optimization and event prediction; and Smart Cities; Master of Science in Computer Science and Master of Science in Design, Management, and Administration of projects.",
 
       "seccion-cinco-card_3_T1": "Carlos Castillo Galvis",
       "seccion-cinco-card_3_S2": "Administrator",
