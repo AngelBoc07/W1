@@ -121,7 +121,7 @@
     background-color: var(--verde);
     margin-top: 0.4vw;
     padding: 0.5vw;
-    height: 38px;
+    height: 2.8vw;
     display: flex;
     align-items: center;
 }
@@ -146,9 +146,6 @@
 .img_card_cinco:hover h2 {
     filter: blur(10px);
 }
-
-
-
 
 
 /*--------------------------------Caption ----------------------------------------*/
@@ -207,7 +204,7 @@
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
     position: absolute;
-    top: 15px;
+    top: 1vw;
     -moz-transform: translate3d(0%, 70%, 0);
     -ms-transform: translate3d(0%, 70%, 0);
     -o-transform: translate3d(0%, 70%, 0);
@@ -224,7 +221,7 @@
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
     position: absolute;
-    top: 70px;
+    top: 5vw;
     left: 12px;
     right: 12px;
     line-height: 1;
@@ -298,7 +295,7 @@
         font-family: 'Orbitron', sans-serif;
         font-size: 15px;
         text-align: center;
-        top: 10px;
+        top: 1vw;
     }
 
     .caption_cinco h3 span {
@@ -309,7 +306,7 @@
         font-family: 'Raleway', Orbitron, sans-serif;
         font-weight: 500;
         font-size: 12px;
-        top: 48px;
+        top: 7vw;
     }
 
     .img_card_cinco {
@@ -351,13 +348,12 @@
     }
 
 
-    /*-----*/
 
     .caption_cinco h3 {
         font-family: 'Orbitron', sans-serif;
         font-size: 12px;
         text-align: center;
-        top: 5px;
+        top: 1vw;
         padding: 1vw;
     }
 
@@ -369,7 +365,7 @@
         font-family: 'Raleway', Orbitron, sans-serif;
         font-weight: 500;
         font-size: 10px;
-        top: 42px;
+        top: 13vw;
     }
 
     .seccion_cinco_img_card .img_card_cinco {
@@ -402,7 +398,7 @@
         font-family: 'Orbitron', sans-serif;
         font-size: 12px;
         text-align: center;
-        top: 10px;
+        top: 1vw;
     }
 
     .caption_cinco h3 span {
@@ -413,7 +409,7 @@
         font-family: 'Raleway', Orbitron, sans-serif;
         font-weight: 500;
         font-size: 1.4vw;
-        top: 50px;
+        top: 6vw;
     }
 
     .seccion_cinco_img_card .img_card_cinco {
@@ -438,7 +434,7 @@
         font-family: 'Orbitron', sans-serif;
         font-size: 12px;
         text-align: center;
-        top: 5px;
+        top: 1vw;
         padding: 1vw;
     }
 
@@ -450,7 +446,7 @@
         font-family: 'Raleway', Orbitron, sans-serif;
         font-weight: 500;
         font-size: 1.4vw;
-        top: 50px;
+        top: 7vw;
     }
 
     .seccion_cinco_img_card .img_card_cinco {
@@ -476,7 +472,7 @@
         font-family: 'Orbitron', sans-serif;
         font-size: 14px;
         text-align: center;
-        top: 10px;
+        top: 1vw;
         padding: 1vw;
     }
 
@@ -487,8 +483,8 @@
     .caption_cinco p {
         font-family: 'Raleway', Orbitron, sans-serif;
         font-weight: 500;
-        font-size: 11px;
-        top: 60px;
+        font-size: 12px;
+        top: 6vw;
     }
 
     .seccion_cinco_img_card .img_card_cinco {
@@ -496,3 +492,33 @@
         height: 220px;
     }
 }
+
+@media (min-width: 1680px) {
+
+    .img_card_cinco h2 {
+        font-size: 1vw;
+    }
+
+    .seccion_cinco_img_card .img_card_cinco {
+        width: 250px;
+        height: 30vh;
+    }
+  }
+
+@media (min-width: 1920px) {
+    
+    .seccion_cinco_img_card .img_card_cinco {
+        width: 300px;
+        height: 33vh;
+    }
+    
+    .seccion_cinco_img {
+        width: 20px;
+        height: 30vh;
+    } 
+
+    .img_card_cinco h2 {
+        font-size: 1vw;     
+    }
+
+  }

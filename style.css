@@ -81,8 +81,8 @@ section[id] {
 }
 
 @media (min-width: 1680px) {
-  .seccion_dos {
-    background-color: #ffffff;
-    margin: 0 5%;
+  html {
+      padding: 0 50px 0 50px;
+      background-color: #ffffff;
   }
 }

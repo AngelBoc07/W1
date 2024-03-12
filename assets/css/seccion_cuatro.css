@@ -355,3 +355,11 @@
     height: 30vh;
   }
 }
+
+@media (min-width: 1680px) {
+
+.img_card_cuatro {
+    width: 300px;
+    height: 30vh;
+}
+}

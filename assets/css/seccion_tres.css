@@ -377,6 +377,12 @@
     .img_card:hover .description {
         font-size: 1.3vw;
     }
-
-
 }
+
+@media (min-width: 1680px) {
+
+    .seccion_tres_img_card .img_card {
+        width: 300px;
+        height: 30vh;
+    }
+  }
