@@ -83,6 +83,11 @@ section[id] {
 @media (min-width: 1680px) {
   html {
       padding: 0 50px 0 50px;
-      background-color: #ffffff;
+      background-image: url("./assets/img/FondoIA.webp");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 200%;
+      background-position-x: 20%;
+      background-position-y: 3%;
   }
 }

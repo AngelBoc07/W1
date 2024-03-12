@@ -322,14 +322,14 @@
 }
 
   .title_cuatro {
-    font-size: 1.8vw;
+    font-size: 1.4vw;
     margin-top: 10px;
     margin-bottom: 5px;
   }
 
   .img_card_cuatro:hover .title_cuatro,
   .img_card_cuatro:hover .description_cuatro {
-    font-size: 2.2vw;
+    font-size: 1.8vw;
   }
 
 
