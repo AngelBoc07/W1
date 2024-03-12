@@ -267,11 +267,13 @@
 
 .mps h4 {
   font-size: 14px;
+  font-family: 'Raleway', Orbitron, sans-serif;
   /* Tamaño de fuente aumentado para h4 */
 }
 
 .mps span {
   font-size: 13px;
+  font-family: 'Raleway', Orbitron, sans-serif;
   /* Tamaño de fuente aumentado para span */
 }
 
@@ -323,6 +325,7 @@
 
 .maps-inf h3 {
   font-size: 0.9em;
+  font-family: 'Raleway', Orbitron, sans-serif;
   text-align: center;
   margin-bottom: 3%;
   border: var(--verde) solid 0.1rem;
@@ -340,12 +343,14 @@
 
 .maps-inf h4 {
   font-size: 0.8em;
+  font-family: 'Raleway', Orbitron, sans-serif;
   margin-bottom: 2%;
   z-index: 11;
 }
 
 .maps-inf span {
   text-align: center;
+  font-family: 'Raleway', Orbitron, sans-serif;
   font-size: 0.7em;
 }
 
