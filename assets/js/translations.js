@@ -132,6 +132,37 @@ try {
       "pin-paises-bajos":"Países Bajos",
       "pin-portugal":"Portugal",
 
+      //Colombia
+
+      "ciudad_colombia_1":"Barrancabermeja",
+      "zona_colombia_1":"Barrio Colombia",
+      "direccion_colombia_1":"Calle 52 # 13 74",
+
+      "ciudad_colombia_2":"Bogotá",
+      "zona_colombia_2":"Edificio Nueve 5",
+      "direccion_colombia_2":"Calle 95 # 14-45 piso 801",
+
+      //EEUU
+
+      "ciudad_eeuu_1":"Texas",
+      "zona_eeuu_1":"Houston",
+      "direccion_eeuu_1":"8912 Plum Creek Dr Willow creek apartments",
+
+      //Paises Bajos
+
+      "ciudad_paises_bajos_1":"Dordrecht",
+      "zona_paises_bajos_1":"3317 ED Thorbeckeweg 197",
+      "direccion_paises_bajos_1":"Celular: (+31) 6 58972057",
+
+      //Portugal
+
+      "ciudad_portugal_1":"Vila do Conde",
+      "zona_portugal_1":"Avenida Bento de Freitas",
+      "direccion_portugal_1":"Celular: (+35) 1 938460930",
+
+
+
+
       //Contacto footer
 
       "footer-titulo": "Para más información, contáctenos",
@@ -196,6 +227,13 @@ try {
       "list_2_gas":"Mantenimiento Preventivo y correctivo a equipos rotativos estáticos.",
       "list_3_gas":"Automatización de procesos y operaciones.",
       "list_4_gas":"Construcción de líneas de Flujo.",
+
+      //cookies
+
+      "titulos_cookies":"Cookies",
+      "parrafo_cookies":"Utilizamos cookies propias y de terceros para mejorar nuestros servicios.",
+      "boton_cookies":"De acuerdo",
+      "avisos_cookies":"Aviso de Cookies",
 
     },
     en: {
@@ -323,6 +361,35 @@ try {
       "pin-paises-bajos":"Países Bajos",
       "pin-portugal":"Portugal",
 
+      //Colombia
+
+      "ciudad_colombia_1":"Barrancabermeja",
+      "zona_colombia_1":"Barrio Colombia",
+      "direccion_colombia_1":"Calle 52 # 13 74",
+
+      "ciudad_colombia_2":"Bogotá",
+      "zona_colombia_2":"Edificio Nueve 5",
+      "direccion_colombia_2":"Calle 95 # 14-45 piso 801",
+
+      //EEUU
+
+      "ciudad_eeuu_1":"Texas",
+      "zona_eeuu_1":"Houston",
+      "direccion_eeuu_1":"8912 Plum Creek Dr Willow creek apartments",
+
+      //Paises Bajos
+
+      "ciudad_paises_bajos_1":"Dordrecht",
+      "zona_paises_bajos_1":"3317 ED Thorbeckeweg 197",
+      "direccion_paises_bajos_1":"Celular: (+31) 6 58972057",
+
+      //Portugal
+
+      "ciudad_portugal_1":"Vila do Conde",
+      "zona_portugal_1":"Avenida Bento de Freitas",
+      "direccion_portugal_1":"Celular: (+35) 1 938460930",
+
+
       //Contacto Footer
 
       "footer-titulo": "For more information, contact us.",
@@ -331,9 +398,11 @@ try {
       "footer-informacion": "Further Information",
 
       "footer-email": "Email:",
-      "footer-correo": " cco@sminsl.com",
-      "footer-whatsApp": "WhatsApp:",
-      "footer-phone": "Cellphone:",
+      "footer-correo": "   cco@sminsl.com",
+      "footer-whatsApp": "WhatsApp:    +57 000 000 0000",
+      "footer-whatsApp-num": "",
+      "footer-phone": "Cellphone   +601 000 000 00:",
+      "footer-phone-num": "Cellphone:",
 
       "footer-seguir": "Follow us on social media",
       "footer-terminos": "Terms and Services",
@@ -387,7 +456,12 @@ try {
       "list_3_gas":"Automation of Processes and Operations.",
       "list_4_gas":"Construction of Flowlines.",
 
+      //cookies
 
+      "titulos_cookies":"Cookies",
+      "parrafo_cookies":"We use our own and third-party cookies to improve our services.",
+      "boton_cookies":"Agreed",
+      "avisos_cookies":"Cookie Notice",
 
 
 

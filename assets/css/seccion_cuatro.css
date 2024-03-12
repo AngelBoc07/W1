@@ -338,7 +338,7 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .img_card_cuatro {
-    width: 140px;
+    width: 160px;
     height: 20vh;
   }
 
