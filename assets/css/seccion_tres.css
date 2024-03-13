@@ -37,7 +37,7 @@
 
 .caja-seccion-tres-uno{
     width: 40em;
-    height: 5em;
+    height: 6em;
     background-color: rgba(216, 219, 26, 0.1);
     backdrop-filter: blur(4px);
     box-shadow: 10px 10px 25px rgba(44, 71, 95, 0.4);
@@ -45,6 +45,8 @@
     top: 5em;
     left: 2em;
     z-index: 1;
+    animation: moverCaja 7s infinite alternate;
+    -webkit-animation: moverCaja 5s infinite alternate;
   }
 
 
@@ -128,6 +130,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: pulsacion 4s ease-in-out infinite alternate;
+    -webkit-animation: pulsacion 4s ease-in-out infinite alternate;
 }
 
 .img_card_container img {

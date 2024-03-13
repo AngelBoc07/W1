@@ -20,6 +20,30 @@
   text-decoration: none;
 }
 
+.nav-caja{
+  animation: pulso-logo 10s ease-in-out infinite alternate;
+  -webkit-animation: pulso-logo 10s ease-in-out infinite alternate;
+}
+
+@keyframes pulso-logo {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+  100% {
+    transform: scale(1.5);
+    opacity: 1;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+}
+
 .logo {
   font-size: 30px;
   font-weight: bold;

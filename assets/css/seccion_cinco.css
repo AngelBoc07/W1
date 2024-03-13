@@ -33,6 +33,8 @@
     margin-bottom: 1vw;
     padding: calc(4vw);
     padding-bottom: 1vw;
+    position: relative;
+    z-index: 5;
     grid-area: seccion_cinco_texto;
 }
 
@@ -46,6 +48,21 @@
 
 }
 
+.concatenar {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 700;
+    border-bottom: 2px solid var(--blanco_principal);
+    line-height: 4vw;
+    z-index: 4;
+  }
+  
+  .concatenar .texto_espacio {
+    margin: 0.5vw;
+  }
+
 .concatenar .texto_cinco_b {
     color: var(--negro_principal);
 }
@@ -53,6 +70,37 @@
 
 .concatenar .texto_cinco_b1 {
     color: var(--verde);
+}
+
+.caja-seccion-cinco-uno{
+    width: 19em;
+    height: 4.5em;
+    background-color: rgba(216, 219, 26, 0.1);
+    backdrop-filter: blur(4px);
+    box-shadow: 10px 10px 25px rgba(44, 71, 95, 0.4);
+    position: absolute;
+    top: 2em;
+    left: 0em;
+    z-index: 1;
+    animation: moverCaja 10s infinite alternate;
+    -webkit-animation: moverCaja 10s infinite alternate;
+    -webkit-animation: animattarget 4s linear infinite;
+    animation: animattarget 4s linear infinite;
+}
+
+  .caja-seccion-cinco-dos{
+    width: 17em;
+    height: 4em;
+    background-color: rgba(42, 219, 26, 0.3);
+    backdrop-filter: blur(4px);
+    box-shadow: 10px 10px 25px rgba(44, 71, 95, 0.4);
+    position: absolute;
+    top: 3em;
+    left: 10em;
+    z-index: 1;
+    animation: moverCaja 9s infinite alternate;
+    -webkit-animation: animattarget 4s linear infinite;
+    animation: animattarget 4s linear infinite;
 }
 
 
@@ -129,7 +177,6 @@
 
 .img_card_cinco img {
     filter: grayscale(0%);
-    /*Cambiarescaladefiltroblanco-negro*/
     opacity: 1;
     width: 100%;
     height: 82%;
@@ -194,7 +241,6 @@
 }
 
 .caption_cinco h3 {
-    /* word-spacing: -0.15em; */
     color: var(--verde);
     font-family: 'Orbitron', sans-serif;
     font-size: 1.3vw;
@@ -283,13 +329,26 @@
 
 .img_card_cinco:hover {
     filter: brightness(80%);
-    /* Reducir el brillo al 50% para oscurecer */
 }
 
 
 /* Responsive  Styles ---------------------767.98px---------------------------575.98px--------------------------------------------------------- */
 
 @media (max-width: 768px) {
+
+    .caja-seccion-cinco-uno{
+        width: 15em;
+        height: 4em;
+        top: 1em;
+        left: 0em;
+    }
+    
+      .caja-seccion-cinco-dos{
+        width: 15em;
+        height: 4em;
+        top: 0em;
+        left: 0em;
+    }
 
     .caption_cinco h3 {
         font-family: 'Orbitron', sans-serif;
@@ -328,6 +387,20 @@
     .seccion_caja_cinco {
         grid-template-columns: auto;
         grid-template-rows: auto;
+    }
+
+    .caja-seccion-cinco-uno{
+        width: 10em;
+        height: 3em;
+        top: 0em;
+        left: 0em;
+    }
+    
+      .caja-seccion-cinco-dos{
+        width: 15em;
+        height: 4em;
+        top: 0em;
+        left: 0em;
     }
 
     .seccion_cinco_texto .texto_cinco_a {
@@ -385,6 +458,22 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    
+    .caja-seccion-cinco-uno{
+        width: 15em;
+        height: 4em;
+        top: 1em;
+        left: 0em;
+    }
+    
+      .caja-seccion-cinco-dos{
+        width: 15em;
+        height: 4em;
+        top: 0em;
+        left: 0em;
+    }
+
+    
     .img_card_cinco h2 {
         font-size: 1.2vw;
         margin-top: 0.5vw;

@@ -69,7 +69,7 @@ try {
         "Visibilidad en tiempo real de las variables eléctricas de la operación",
 
       // Seccion Cinco
-      "seccion-cinco-equipo": "El Dream Team",
+      "seccion-cinco-equipo": "Dream Team",
       "seccion-cinco-Smin": "Smin",
 
       // Seccion Cinco Card
