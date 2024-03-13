@@ -25,8 +25,9 @@
         "seccion_dos_parrafo seccion_dos_parrafo seccion_dos_parrafo";
 
     padding: calc(4vw);
-    height: 50vh;
+    height: 76vh;
     align-items: center;
+    position: relative;
 }
 
 .seccion_dos_logo {
@@ -65,10 +66,51 @@
     font-family: 'Orbitron', sans-serif;
     font-size: 3vw;
     font-weight: bolder;
-    line-height: 8vh;
+    line-height: 12vh;
     margin-bottom: 5vh;
     border-bottom: solid var(--verde);
+    position: relative; /* Necesario para el pseudo-elemento */   
 }
+
+
+
+  /* Pseudo-elemento para el destello */
+  .seccion_dos_titulo::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 3px;
+    background: white;
+    animation: destello 7s infinite alternate;
+    -webkit-animation: destello 7s infinite alternate;
+}
+
+  /* Animación para el cambio de color */
+  @keyframes cambio-color {
+    0% {
+      border-color: var(--verde);
+    }
+    100% {
+      border-color: white;
+    }
+  }
+  
+  /* Animación para el destello */
+  @keyframes destello {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+
 
 .seccion_dos_parrafo {
   display: grid;
@@ -78,8 +120,54 @@
   font-size: 1.7vw;
   font-weight: 400;
   grid-area: seccion_dos_parrafo;
-  z-index: 50;
+  z-index: 4;
 }
+
+
+
+.seccion_dos_parrafo_texto {
+    padding: 2% 2% 4%;      
+    background: rgba(170, 170, 170, 0.27);
+    box-shadow: 0 8px 32px 0 rgba(40, 40, 40, 0.3);
+    backdrop-filter: blur(20px);   
+    text-transform: capitalize; 
+    font-family: 'Raleway', Orbitron, sans-serif;
+    font-size: 1.7vw;
+    font-weight: 500; 
+    
+}
+
+.seccion_dos_parrafo_texto:first-of-type::first-letter {
+    color: var(--verde);
+    font-family: 'Orbitron', Raleway, sans-serif;
+    font-weight: bolder;
+  }
+
+  .caja-nosotros-uno{
+    width: 19em;
+    height: 20em;
+    background-color: rgba(42, 219, 26, 0.2);
+    border: 1px #9f9f9f solid;
+    backdrop-filter: blur(4px);
+    box-shadow: 10px 10px 25px rgba(44, 71, 95, 0.4);
+    position: absolute;
+    top: 9em;
+    left: 2em;
+    z-index: 3;
+  }
+
+  .caja-nosotros-dos{
+    width: 18em;
+    height: 10em;
+    background-color: rgba(216, 219, 26, 0.2);
+    border: 1px #9f9f9f solid;
+    backdrop-filter: blur(4px);
+    box-shadow: 10px 10px 25px rgba(44, 71, 95, 0.4);
+    position: absolute;
+    top: 22em;
+    left: 10em;
+    z-index: 5;
+  }
 
 /* Responsive  Styles --------------------------------------------------------------------------------------------------------- */
 
@@ -99,6 +187,29 @@
         box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
     }
 
+    .seccion_dos_parrafo {
+        font-weight: 700;
+    }
+
+    .seccion_dos_parrafo_texto {
+        font-size: 3vw;
+                
+    }
+
+    .caja-nosotros-uno{
+        width: 25em;
+        height: 15em;
+        top: 6.5em;
+        left: 0.6em;
+      }
+    
+    .caja-nosotros-dos{
+        width: 15em;
+        height: 7em;
+        top: 17em;
+        left: 14em;
+      }
+
 }
 
 @media (max-width: 575.98px) {
@@ -111,7 +222,7 @@
         grid-template-columns: auto;
         grid-template-rows: auto auto;
         padding: calc(4vw);
-        height: 30vh;
+        height: 45vh;
     }
 
     .seccion_dos_titulo {
@@ -136,14 +247,27 @@
     }
 
     .seccion_dos_parrafo {
-        font-weight: 400;
+        font-weight: 700;
     }
 
     .seccion_dos_parrafo_texto {
-        background-color: rgba(126, 124, 124, 0.6);
         font-size: 3vw;
-        padding: 2%;
+        padding: 2% 2% 10%;         
     }
+
+    .caja-nosotros-uno{
+        width: 15em;
+        height: 13em;
+        top: 2em;
+        left: 0.3em;
+      }
+    
+    .caja-nosotros-dos{
+        width: 15em;
+        height: 5em;
+        top: 12.4em;
+        left: 4em;
+      }
 
 }
 
@@ -152,7 +276,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
 
     .seccion_caja_dos {
-        height: 60vh;
+        height: 64vh;
     }
 
 
@@ -172,14 +296,28 @@
         background-color: rgba(255, 255, 255, 0.6);
         box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
         font-size: 1.8vw;
-        padding: 1%;
+        padding: 2% 2% 5%;    
     }
+
+    .caja-nosotros-uno{
+        width: 15em;
+        height: 11em;
+        top: 3.4em;
+        left: 0.7em;
+      }
+    
+    .caja-nosotros-dos{
+        width: 15em;
+        height: 5em;
+        top: 11.4em;
+        left: 4em;
+      }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     .seccion_caja_dos {
-        height: 25vh;
+        height: 33vh;
     }
 
     .seccion_dos_titulo {
@@ -194,19 +332,37 @@
     .seccion_dos_parrafo_texto {
         background-color: rgba(255, 255, 255, 0.6);
         font-size: 1.8vw;
-        padding: 1%;
+        padding: 2% 2% 6%; 
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .seccion_caja_dos {
-        height: 47vh;
+        height: 55vh;
     }
 
     .seccion_dos_titulo {
         font-size: 2.5vw;
     }
+
+    .seccion_dos_parrafo_texto {
+        font-size: 2vw;               
+    }
+
+    .caja-nosotros-uno{
+        width: 25em;
+        height: 20em;
+        top: 6.5em;
+        left: 0.6em;
+      }
+    
+    .caja-nosotros-dos{
+        width: 20em;
+        height: 9em;
+        top: 21em;
+        left: 14em;
+      }
     
 
 }
