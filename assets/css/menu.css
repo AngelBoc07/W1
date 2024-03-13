@@ -20,7 +20,7 @@
   text-decoration: none;
 }
 
-.nav-caja{
+/* .nav-caja{
   animation: pulso-logo 10s ease-in-out infinite alternate;
   -webkit-animation: pulso-logo 10s ease-in-out infinite alternate;
 }
@@ -42,7 +42,7 @@
     -ms-transform: scale(1.5);
     -o-transform: scale(1.5);
 }
-}
+} */
 
 .logo {
   font-size: 30px;
