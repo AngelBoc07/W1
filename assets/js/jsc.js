@@ -196,13 +196,8 @@ mapsdesktop.addEventListener('mouseleave', function(event) {
 
 
 
-// Función para establecer el tema claro
-function establecerTemaClaro() {
-  document.body.classList.remove('dark-theme');
-}
 
-// Llama a la función para establecer el tema claro al cargar la página
-window.addEventListener('load', establecerTemaClaro);
+
 
 
 
