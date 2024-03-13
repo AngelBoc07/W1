@@ -28,8 +28,8 @@ body {
   background-size: 200%;
   background-position-x: 20%;
   background-position-y: 3%;
-  background-color: #ffffff; /* Color de fondo claro */
-  color: #000000; /* Color de texto oscuro */
+  background-color: #ffffff; 
+  color: #000000; 
   grid-column: 1 / span 4;
   
 }
