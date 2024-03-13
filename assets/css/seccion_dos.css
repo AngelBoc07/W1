@@ -274,6 +274,24 @@
 
 }
 
+@media (max-width: 360px) {
+  /* Styles for Motorola Edge 30 and similar devices */
+  .caja-nosotros-uno{
+    width: 15em;
+    height: 14em;
+    top: 2.3em;
+    left: 0.3em;
+  }
+
+.caja-nosotros-dos{
+    width: 15em;
+    height: 5em;
+    top: 12.4em;
+    left: 4em;
+  }
+
+}
+
 @media (max-width: 575.98px) {
 
     .seccion_caja_dos {
@@ -330,8 +348,7 @@
         top: 12.4em;
         left: 4em;
       }
-
-}
+  }
 
 
 /* Small devices (landscape phones, 576px and up) */
