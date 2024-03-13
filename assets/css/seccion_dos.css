@@ -143,8 +143,7 @@
     width: 23em;
     height: 20em;
     background-color: rgba(42, 219, 26, 0.1);
-    /*border: 1px #9f9f9f solid;
-    */backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
     box-shadow: 10px 10px 25px rgba(44, 71, 95, 0.4);
     position: absolute;
     top: 6em;
@@ -158,7 +157,6 @@
     width: 25em;
     height: 10em;
     background-color: rgba(216, 219, 26, 0.1);
-    /* border: 1px #9f9f9f solid; */
     backdrop-filter: blur(4px);
     box-shadow: 10px 10px 25px rgba(44, 71, 95, 0.4);
     position: absolute;

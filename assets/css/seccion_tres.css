@@ -31,8 +31,21 @@
     margin-bottom: 1vw;
     padding: calc(4vw);
     padding-bottom: 1vw;
+    position: relative;
     grid-area: seccion_tres_texto;
 }
+
+.caja-seccion-tres-uno{
+    width: 61em;
+    height: 9em;
+    background-color: rgba(216, 219, 26, 0.1);
+    backdrop-filter: blur(4px);
+    box-shadow: 10px 10px 25px rgba(44, 71, 95, 0.4);
+    position: absolute;
+    top: 5em;
+    left: 2em;
+    z-index: 1;
+  }
 
 
 
@@ -48,6 +61,7 @@
     box-shadow: 0 8px 32px 0 rgba(40, 40, 40, 0.3);
     backdrop-filter: blur(20px);   
     width: 90%;
+    z-index: 2;
 }
 
 
