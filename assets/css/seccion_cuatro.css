@@ -16,6 +16,8 @@
   flex-direction: column;
   align-items: flex-end;
   padding: 1vw 4vw 1vw 4vw;
+  position: relative;
+  z-index: 1;
 }
 
 .texto_cuatro_a {
@@ -42,7 +44,22 @@
   box-shadow: 0 8px 32px 0 rgba(40, 40, 40, 0.3);
   backdrop-filter: blur(20px);   
   margin-bottom: 2vw;
+  z-index: 5;
 }
+
+.caja-seccion-cuatro-uno{
+  width: 24em;
+  height: 14em;
+  background-color: rgba(42, 219, 26, 0.1);
+  backdrop-filter: blur(4px);
+  box-shadow: 10px 10px 25px rgba(44, 71, 95, 0.4);
+  position: absolute;
+  top: 2.7em;
+  left: 59em;
+  z-index: 4;
+}
+
+
 
 /* Tarjeta */
 
@@ -261,6 +278,14 @@
     font-weight: 400;
     color: var(--negro_principal);
     margin-bottom: 4vw;
+  }
+
+  .caja-seccion-cuatro-uno{
+    width: 10em;
+    height: 8em;
+    top: 1em;
+    left: 21em;
+
   }
 
   .img_card_cuatro {

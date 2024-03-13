@@ -140,23 +140,24 @@
   }
 
   .caja-nosotros-uno{
-    width: 19em;
+    width: 20em;
     height: 20em;
     background-color: rgba(42, 219, 26, 0.2);
-    /* border: 1px #9f9f9f solid; */
-    backdrop-filter: blur(4px);
+    /*border: 1px #9f9f9f solid;
+    */backdrop-filter: blur(4px);
     box-shadow: 10px 10px 25px rgba(44, 71, 95, 0.4);
     position: absolute;
     top: 6em;
     left: 2em;
     z-index: 3;
-    animation: moverCaja 4s infinite alternate; /* Aplica la animación */
-  }
+    animation: moverCaja 7s infinite alternate;
+    -webkit-animation: moverCaja 5s infinite alternate;
+}
 
   .caja-nosotros-dos{
     width: 25em;
     height: 10em;
-    background-color: rgba(216, 219, 26, 0.2);
+    background-color: rgba(216, 219, 26, 0.1);
     /* border: 1px #9f9f9f solid; */
     backdrop-filter: blur(4px);
     box-shadow: 10px 10px 25px rgba(44, 71, 95, 0.4);
