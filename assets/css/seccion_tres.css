@@ -428,10 +428,37 @@
       }
 }
 
+@media (min-width: 1439px) and (max-width: 1599px) {
+
+    .seccion_tres_img_card .img_card {
+        width: 250px;
+        height: 30vh;
+    }
+  
+  }
+
 @media (min-width: 1680px) {
+
+    .caja-seccion-tres-uno{
+        width: 50em;
+        height: 6em;
+        top: 8em;
+        left: 1em;
+      }
 
     .seccion_tres_img_card .img_card {
         width: 300px;
         height: 30vh;
     }
+
+  }
+
+  @media (min-width: 1920px) {
+    .caja-seccion-tres-uno{
+        width: 50%;
+        height: 50%;
+        top: 50%;
+        left: 1%;
+      }
+
   }
