@@ -38,6 +38,33 @@
     grid-area: seccion_cinco_texto;
 }
 
+.line_cinco{
+    width: 1px;
+    background-color: var(--verde);
+    height: 110%;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    left: calc(25% + 0.8em);
+  }
+  
+  .line_cinco span{
+    width: 1px;
+    height: 25px;
+    position: absolute;
+    top: -45px;
+    left: 0;
+    background-image: linear-gradient(0deg, transparent, #fff,transparent);
+    box-shadow: 0 0 10px #30a9ff;
+    animation: lineFlow 10s linear infinite;
+    -webkit-animation: lineFlow 10s linear infinite;
+  } 
+  
+  @keyframes lineFlow {
+    0% {top: -45px;}
+    100%{top: 110%;}
+  }
+
 
 /* textos */
 .texto_cinco_a {
