@@ -176,7 +176,7 @@ try {
       "footer-phone": "Celular:",
 
       "footer-seguir": "Síguenos en redes sociales",
-      "footer-terminos": "Terminos y Servicios",
+      "footer-terminos": "",
       "footer-@":
         "@ 2024-SMIN ENERGY SERVICE COMPANY. Todos los Derechos Reservados",
       "footer-politicas": "Politicas de Privacidad",
@@ -405,8 +405,8 @@ try {
       "footer-phone-num": "Cellphone:",
 
       "footer-seguir": "Follow us on social media",
-      "footer-terminos": "Terms and Services",
-      "footer-@": "@ 2024-SMIN ENERGY SERVICE COMPANY. All Rights Reserved",
+      "footer-terminos": "@ 2024 All Rights Reserved",
+      "footer-@": "SMIN - Energy Service Companies (ESCOs)",
       "footer-politicas": "Privacy Policies",
 
       //Pagina proyecto.html 

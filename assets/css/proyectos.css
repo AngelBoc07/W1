@@ -42,6 +42,22 @@ body{
 
 
 /* textos */
+
+.concatenar {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 700;
+    border-bottom: 2px solid var(--blanco_principal);
+    line-height: 4vw;
+    z-index: 4;
+  }
+  
+  .concatenar .texto_espacio {
+    margin: 0.5vw;
+  }
+
 .texto_proyecto_a {
     font-family: 'Raleway', Orbitron, sans-serif;
     font-size: 1.4vw;
@@ -81,17 +97,62 @@ body{
     font-family: 'Raleway', Orbitron, sans-serif;
     font-size: 1.7vw;
     font-weight: 400;
-    background-color: rgba(126, 124, 124, 0.2);
-    padding: 1vw;
+    padding: 2% 2% 4%;
+    height: 40vh;
+    background: rgba(170, 170, 170, 0.27);
+    box-shadow: 0 8px 32px 0 rgba(40, 40, 40, 0.3);
+    backdrop-filter: blur(20px);
+    z-index: 5;
+    position: relative;
+
 }
 
+
+.caja-parrafo-uno {
+    width: 45%;
+    height: 50%;
+    background-color: rgba(42, 219, 26, 0.1);
+    backdrop-filter: blur(4px);
+    box-shadow: 10px 10px 25px rgba(44, 71, 95, 0.4);
+    position: absolute;
+    top: 120%;
+    left: 1%;
+    z-index: 3;
+    animation: moverCaja 4s infinite alternate;
+    -webkit-animation: moverCaja 4s infinite alternate;
+  }
+  
+  .caja-parrafo-dos {
+    width: 100%;
+    height: 50%;
+    background-color: rgba(216, 219, 26, 0.1);
+    backdrop-filter: blur(4px);
+    box-shadow: 10px 10px 25px rgba(44, 71, 95, 0.4);
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    z-index: 5;
+    animation: moverCaja 7s infinite alternate;
+    -webkit-animation: moverCaja 7s infinite alternate;
+    -moz-animation: moverCaja 7s infinite alternate;
+    -ms-animation: moverCaja 7s infinite alternate;
+    -o-animation: moverCaja 7s infinite alternate;
+  }
+
+  .proyecto_caja_uno{
+    height: 100vh;
+  }
+  
 .proyecto_img-title{
     font-family: 'Orbitron', Raleway, sans-serif;
     font-size: 2vw;
-    font-weight: 400;
+    font-weight: 700;
     text-align: center;
     padding: calc(4vw);
     color: var(--verde);
+    border-bottom: 1px solid var(--blanco_principal);
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .contenedor_proyecto{
@@ -101,6 +162,7 @@ body{
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 .contedores_proyecto_img{
@@ -112,6 +174,9 @@ body{
     align-items: center;
     border: solid 1px var(--verde);
     padding: 1vw;
+    background: rgba(170, 170, 170, 0.27);
+    box-shadow: 0 8px 32px 0 rgba(40, 40, 40, 0.3);
+    backdrop-filter: blur(20px);
 }
 
 .contedores_proyecto_img h3{

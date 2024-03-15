@@ -5,6 +5,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 1% 2% 1%;
 }
 
 .logo {
@@ -14,9 +15,14 @@
     line-height: 90px;
   }
 
+  .politicas-logo-menu{
+    width: 25%;
+    height: 10%;
+  }
+
 .logo-menu {
     margin: 4px 0;
-    width: 250px;
+    width: 200px;
     height: 100px;
     padding: 0 40px;
     line-height: 80px;
