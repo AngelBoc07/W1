@@ -257,22 +257,6 @@
   animation: animattarget 4s linear infinite;
 }
 
-@keyframes animattarget {
-  0% {
-    transform: scale(0.2);
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(1);
-    opacity: 0;
-  }
-}
-
 .mps h4,
 .mps span {
   color: var(--blanco_principal);
@@ -298,19 +282,6 @@
   font-size: 13px;
   font-family: 'Raleway', Orbitron, sans-serif;
   /* Tamaño de fuente aumentado para span */
-}
-
-
-
-@keyframes pulse {
-  100% {
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(2.5);
-    -webkit-transform: translate(-50%, -50%) scale(2.5);
-    -moz-transform: translate(-50%, -50%) scale(2.5);
-    -ms-transform: translate(-50%, -50%) scale(2.5);
-    -o-transform: translate(-50%, -50%) scale(2.5);
-}
 }
 
 .section_maps_inf {

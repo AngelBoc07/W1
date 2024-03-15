@@ -39,8 +39,6 @@
   -webkit-animation: lineFlow 10s linear infinite;
 }
 
-
-
 .nav-link {
   color: var(--blanco_principal);
   text-decoration: none;
@@ -128,9 +126,6 @@
 .fa-bars{
   color: var(--verde);
 }
-
-
-
 
 
 /* Responsive  Styles --------------------------------------------------------------------------------------------------------- */

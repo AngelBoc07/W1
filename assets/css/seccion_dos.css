@@ -76,32 +76,6 @@
   -webkit-animation: destello 7s infinite alternate;
 }
 
-@keyframes cambio-color {
-  0% {
-    border-color: var(--verde);
-  }
-
-  100% {
-    border-color: var(--blanco_secundario);
-  }
-}
-
-/* Animación para el destello */
-@keyframes destello {
-  0% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-
 .seccion_dos_parrafo {
   place-self: center;
   z-index: 4;
@@ -159,75 +133,6 @@
   -o-animation: moverCaja 7s infinite alternate;
 }
 
-@keyframes moverCaja {
-  0% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-10px);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@-webkit-keyframes moverCaja {
-  0% {
-    -webkit-transform: translateY(0);
-  }
-
-  50% {
-    -webkit-transform: translateY(-10px);
-  }
-
-  100% {
-    -webkit-transform: translateY(0);
-  }
-}
-
-@-moz-keyframes moverCaja {
-  0% {
-    -moz-transform: translateY(0);
-  }
-
-  50% {
-    -moz-transform: translateY(-10px);
-  }
-
-  100% {
-    -moz-transform: translateY(0);
-  }
-}
-
-@-ms-keyframes moverCaja {
-  0% {
-    -ms-transform: translateY(0);
-  }
-
-  50% {
-    -ms-transform: translateY(-10px);
-  }
-
-  100% {
-    -ms-transform: translateY(0);
-  }
-}
-
-@-o-keyframes moverCaja {
-  0% {
-    -o-transform: translateY(0);
-  }
-
-  50% {
-    -o-transform: translateY(-10px);
-  }
-
-  100% {
-    -o-transform: translateY(0);
-  }
-}
 
 
 /* Responsive  Styles --------------------------------------------------------------------------------------------------------- */

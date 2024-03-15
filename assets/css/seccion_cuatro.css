@@ -104,9 +104,6 @@
   
 }
 
-
-
-
 .img_card_cuatro {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.4);
@@ -140,18 +137,6 @@
   align-items: center;
   animation: pulsacion 4s ease-in-out infinite alternate;
   -webkit-animation: pulsacion 4s ease-in-out infinite alternate;
-}
-
-@keyframes pulsacion {
-  0% {
-    transform: scale(1);
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(1.1);
-    opacity: 1;
-  }
 }
 
 .img_card_container_cuatro img {
@@ -258,12 +243,6 @@
   filter: drop-shadow(10px 7px 10px white);
   -webkit-filter: drop-shadow(10px 7px 10px white);
 }
-
-
-
-
-
-
 
 /* Responsive  Styles --------------------------------------------------------------------------------------------------------- */
 
