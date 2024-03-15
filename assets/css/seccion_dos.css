@@ -57,42 +57,9 @@
   grid-template-areas:
     "seccion_dos_parrafo seccion_dos_parrafo seccion_dos_parrafo"
     "seccion_dos_parrafo seccion_dos_parrafo seccion_dos_parrafo";
-
   padding: calc(4vw);
   height: 76vh;
   align-items: center;
-  position: relative;
-}
-
-.seccion_dos_logo {
-  position: relative;
-  display: inline-block;
-  margin: 20px;
-  margin-left: 4vw;
-  max-width: 300px;
-  width: 90%;
-  color: var(--blanco_principal);
-  font-size: 16px;
-  box-shadow: none !important;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  grid-area: seccion_dos_logo;
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
-}
-
-
-.seccion_dos_img {
-  border-radius: 5%;
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
-  -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;
-  -ms-border-radius: 5%;
-  -o-border-radius: 5%;
 }
 
 .seccion_dos_titulo {
