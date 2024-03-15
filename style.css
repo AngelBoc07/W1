@@ -21,7 +21,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   font-family: 'Raleway', sans-serif;
-  background-image: url("./assets/img/FondoIA.webp");
+  background-image: url("./assets/img/fondos/FondoIA.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 200%;
@@ -82,7 +82,7 @@ section[id] {
 @media (min-width: 1680px) {
   html {
       padding: 0 50px 0 50px;
-      background-image: url("./assets/img/FondoIA.webp");
+      background-image: url("./assets/img/fondos/FondoIA.webp");
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: 200%;

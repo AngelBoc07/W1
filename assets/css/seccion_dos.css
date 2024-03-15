@@ -55,8 +55,6 @@
   grid-template-rows: auto auto;
   gap: 0px 0px;
   grid-template-areas:
-    /* "seccion_dos_parrafo seccion_dos_parrafo seccion_dos_logo"
-        "seccion_dos_parrafo seccion_dos_parrafo seccion_dos_logo"; */
     "seccion_dos_parrafo seccion_dos_parrafo seccion_dos_parrafo"
     "seccion_dos_parrafo seccion_dos_parrafo seccion_dos_parrafo";
 
