@@ -34,7 +34,36 @@
   font-size: 3vw;
   font-weight: 700;
   color: var(--blanco_principal);
+  position: relative;
+  z-index: 1;
   grid-area: seccion_maps_titulo;
+}
+
+.line_mapa{
+  width: 1px;
+  background-color: var(--verde);
+  height: 150%;
+  position: absolute;
+  top: -20;
+  z-index: 0;
+  left: calc(25% + 0.8em);
+}
+
+.line_mapa span{
+  width: 1px;
+  height: 25px;
+  position: absolute;
+  top: -45px;
+  left: 0;
+  background-image: linear-gradient(0deg, transparent, #fff,transparent);
+  box-shadow: 0 0 10px #30a9ff;
+  animation: lineFlow 10s linear infinite;
+  -webkit-animation: lineFlow 10s linear infinite;
+} 
+
+@keyframes lineFlow {
+  0% {top: -45px;}
+  100%{top: 110%;}
 }
 
 
