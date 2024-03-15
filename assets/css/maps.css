@@ -61,12 +61,6 @@
   -webkit-animation: lineFlow 10s linear infinite;
 } 
 
-@keyframes lineFlow {
-  0% {top: -45px;}
-  100%{top: 110%;}
-}
-
-
 .texto_maps_a {
   font-family: 'Orbitron', sans-serif;
   font-size: 1.4vw;
@@ -393,6 +387,19 @@
 
 @media (max-width: 768px) {
 
+  .line_mapa{
+    height: 150%;
+    top: 90% !important;
+    left: calc(10% + 0.8em);
+  }
+  
+  .line_mapa span{
+    height: 25px;
+    top: -45px;
+    animation: lineFlow 10s linear infinite;
+    -webkit-animation: lineFlow 10s linear infinite;
+  }
+
   .section_maps{
     width: 100%;
   }
@@ -455,6 +462,19 @@
     color: var(--negro_principal);
     z-index: 100;
   }
+
+  .line_mapa{
+    height: 150%;
+    top: 90% !important;
+    left: calc(15% + 0.8em);
+  }
+  
+  .line_mapa span{
+    height: 25px;
+    top: -45px;
+    animation: lineFlow 10s linear infinite;
+    -webkit-animation: lineFlow 10s linear infinite;
+  } 
 
   .maps {
     display: grid;
@@ -581,6 +601,20 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+  .line_mapa{
+    height: 150%;
+    top: 90% !important;
+    left: calc(15% + 0.8em);
+  }
+  
+  .line_mapa span{
+    height: 25px;
+    top: -45px;
+    animation: lineFlow 10s linear infinite;
+    -webkit-animation: lineFlow 10s linear infinite;
+  }
+
   .maps {
     grid-template-columns: auto 1fr 1fr 120px;
   }
@@ -642,6 +676,20 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .line_mapa{
+    height: 150%;
+    top: 90% !important;
+    left: calc(10% + 0.8em);
+  }
+  
+  .line_mapa span{
+    height: 25px;
+    top: -45px;
+    animation: lineFlow 10s linear infinite;
+    -webkit-animation: lineFlow 10s linear infinite;
+  }
+
   .maps-inf {
     width: 30%;
     margin-bottom: 2%;

@@ -15,6 +15,32 @@
   margin: 0 auto;
 }
 
+
+
+.line_logo {
+  width: 1px;
+  background-color: var(--verde);
+  height: 14%;
+  position: absolute;
+  top: 85%;
+  z-index: 0;
+  left: calc(19.8% + 0.8em);
+}
+
+.line_logo span {
+  width: 1px;
+  height: 25px;
+  position: absolute;
+  top: -45px;
+  left: 0;
+  background-image: linear-gradient(0deg, transparent, #fff, transparent);
+  box-shadow: 0 0 10px #30a9ff;
+  animation: lineFlow 10s linear infinite;
+  -webkit-animation: lineFlow 10s linear infinite;
+}
+
+
+
 .nav-link {
   color: var(--blanco_principal);
   text-decoration: none;
@@ -23,12 +49,8 @@
 .header {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(76, 235, 13, 0.2))
 }
-
-.logo {
-  font-size: 30px;
-  font-weight: bold;
-  padding: 0 40px;
-  line-height: 90px;
+.nav-caja{
+  z-index: 6;
 }
 
 .logo-menu {
@@ -37,6 +59,7 @@
   height: 100px;
   padding: 0 40px;
   line-height: 80px;
+  z-index: 5;
 }
 
 .nav-menu {
@@ -118,6 +141,18 @@
     background-color: var(--blanco_secundario);
   }
 
+  .line_logo {
+    height: 14%;
+    top: 87%;
+    left: calc(16% + 0.8em);
+  }
+  
+  .line_logo span {
+    width: 1px;
+    height: 25px;
+    top: -65px;
+  }
+
   .logo-menu {
     display: block;
     width: 250px;
@@ -139,6 +174,18 @@
   .header {
     height: 90px;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(76, 235, 13, 0.2))
+  }
+
+  .line_logo {
+    height: 14%;
+    top: 87%;
+    left: calc(22% + 0.8em);
+  }
+  
+  .line_logo span {
+    width: 1px;
+    height: 25px;
+    top: -65px;
   }
 
   .logo {
@@ -251,6 +298,18 @@
     justify-content: space-evenly;
   }
 
+  .line_logo {
+    height: 14%;
+    top: 87%;
+    left: calc(17% + 0.8em);
+  }
+  
+  .line_logo span {
+    width: 1px;
+    height: 25px;
+    top: -65px;
+  }
+
   .logo-menu {
     display: block;
     width: 210px;
@@ -272,6 +331,18 @@
   .header {
     height: 100px;
     background-color: var(--blanco_secundario);
+  }
+
+  .line_logo {
+    height: 14%;
+    top: 87%;
+    left: calc(16% + 0.8em);
+  }
+  
+  .line_logo span {
+    width: 1px;
+    height: 25px;
+    top: -65px;
   }
 
   .logo-menu {

@@ -44,3 +44,14 @@ header nav ul li a:hover {
     -o-transform: rotate(360deg);
   }
 }
+
+
+@keyframes lineFlow {
+  0% {
+    top: -45px;
+  }
+
+  100% {
+    top: 110%;
+  }
+}

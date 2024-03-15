@@ -38,15 +38,6 @@
   -webkit-animation: lineFlow 10s linear infinite;
 }
 
-@keyframes lineFlow {
-  0% {
-    top: -45px;
-  }
-
-  100% {
-    top: 110%;
-  }
-}
 
 .seccion_caja_dos {
   display: -ms-grid;

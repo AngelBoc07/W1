@@ -57,11 +57,6 @@
     -webkit-animation: lineFlow 10s linear infinite;
   } 
   
-  @keyframes lineFlow {
-    0% {top: -45px;}
-    100%{top: 110%;}
-  }
-
 .caja-seccion-tres-uno{
     width: 40em;
     height: 6em;

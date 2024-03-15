@@ -43,11 +43,6 @@
   -webkit-animation: lineFlow 10s linear infinite;
 } 
 
-@keyframes lineFlow {
-  0% {top: -45px;}
-  100%{top: 110%;}
-}
-
 
 .texto_cuatro_a {
   font-family: 'Orbitron', Relaway, sans-serif;
