@@ -144,37 +144,31 @@
 }
 
 
-
 .seccion_dos_parrafo {
-  display: grid;
-  justify-self: center;
-  align-self: center;
-  font-family: 'Raleway', Orbitron, sans-serif;
-  font-size: 1.7vw;
-  font-weight: 400;
-  grid-area: seccion_dos_parrafo;
+  place-self: center;
   z-index: 4;
+  grid-area: seccion_dos_parrafo;
 }
-
 
 
 .seccion_dos_parrafo_texto {
-  padding: 2% 2% 4%;
   background: rgba(170, 170, 170, 0.27);
-  box-shadow: 0 8px 32px 0 rgba(40, 40, 40, 0.3);
+  box-shadow: 0 8px 32px rgba(40, 40, 40, 0.3);
+  -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
-  text-transform: capitalize;
   font-family: 'Raleway', Orbitron, sans-serif;
   font-size: 1.7vw;
   font-weight: 500;
-
+  padding: 2% 2% 4%;
 }
+
 
 .seccion_dos_parrafo_texto:first-of-type::first-letter {
   color: var(--verde);
   font-family: 'Orbitron', Raleway, sans-serif;
-  font-weight: bolder;
+  font-weight: bold;
 }
+
 
 .caja-nosotros-uno {
   width: 25em;
