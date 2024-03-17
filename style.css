@@ -37,6 +37,12 @@ section[id] {
   scroll-margin: 65px;
 }
 
+/*---------------contenido_caja--------------------*/
+/* .contenido_caja {
+  grid-column: 1 / span 4;
+  margin-top: calc(9%);
+  z-index: 5;
+} */
 
 
 

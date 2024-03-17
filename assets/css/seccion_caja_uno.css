@@ -16,36 +16,69 @@
   margin-top: calc(9%);
   z-index: 5;
 }
-.caja {
-  display: -ms-grid;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:    "Logotipo Logotipo Logotipo";
-  opacity: 0.9;
+
+.hero{
+  /*temporales*/
+  background-image: url(../img/fondos/Fondo.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 150%;
   background-position-x: 20%;
   background-position-y: 3%;
+  animation: movimiento 30s infinite linear alternate;
+  -webkit-animation: movimiento 30s infinite linear alternate;
+  /******************************/
+  z-index: 5;
+
+}
+
+.caja {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  /* grid-template-areas: "Logotipo Logotipo Logotipo"; */
+  opacity: 0.9;
+  grid-column: 1 / span 4;
   align-items: end;
   justify-items: end;
+  place-self: center;
   margin-top: 2vh;
   padding: calc(2vw);
   position: relative;
   width: 100%;
   height: 77vh;
   overflow: hidden;
- 
   border-radius: 10px 10px 0px 0px;
   -moz-border-radius: 10px 10px 0px 0px;
   -webkit-border-radius: 10px 10px 0px 0px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   -ms-border-radius: 10px 10px 0px 0px;
   -o-border-radius: 10px 10px 0px 0px;
+
 }
+
+/*************temporales*******************/
+@keyframes movimiento{
+  from{
+    background-position: bottom left;
+  }to{
+    background-position: top right;
+  }
+}
+
+.logo_solar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*******************************/
+
 .video-background {
   position: absolute;
   top: 0;
@@ -54,9 +87,7 @@
   height: 100%;
   object-fit: cover;
 }
-.hero{
-  z-index: 5;
-}
+
 
 .caja_img_uno {
   display: grid;
@@ -81,6 +112,9 @@
   z-index: 10;
   grid-area: Logotipo;
 }
+
+
+
 
 
 /* Responsive  Styles --------------------------------------------------------------------------------------------------------- */
