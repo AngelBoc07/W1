@@ -59,36 +59,34 @@
     <header class="header">
         <nav class="nav">
             <div class="nav-caja">
-                <div class="line_logo"><span></span></div>
+                <div class="line_logo" aria-hidden="true"><span></span></div>
                 <img class="logo-menu" src="./assets/img/logo/logo.webp" alt="Logotipo SMIN"
-                    onerror="this.src='./assets/img/no_disponible/no_disponible.webp';">
+                    onerror="this.src='./assets/img/no_disponible/no_disponible.webp';" alt="Logotipo SMIN no no_disponible" role="img">
             </div>
 
-            <button class="nav-toggle" aria-label="Abrir Menu">
+            <button class="nav-toggle" aria-label="Menú principal">
                 <i class="fa-solid fa-bars"></i>
             </button>
             <ul class="nav-menu">
-
                 <li class="nav-menu-item">
-                    <a href="#Nosotros" class="nav-menu-link nav-link" data-translate="menu-uno"></a>
+                    <a href="#Nosotros" class="nav-menu-link nav-link" data-translate="menu-uno" accesskey="1"></a>
                 </li>
                 <!-- <li class="nav-menu-item">
-                    <a href="#Servicios" class="nav-menu-link nav-link" data-translate="menu-dos"></a>
+                    <a href="#Servicios" class="nav-menu-link nav-link" data-translate="menu-dos" accesskey="2"></a>
                 </li> -->
                 <li class="nav-menu-item">
-                    <a href="#Equipo" class="nav-menu-link nav-link" data-translate="menu-tres"></a>
+                    <a href="#Equipo" class="nav-menu-link nav-link" data-translate="menu-tres" accesskey="3"></a>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="#Contacto" class="nav-menu-link nav-link" data-translate="menu-cuatro"></a>
+                    <a href="#Contacto" class="nav-menu-link nav-link" data-translate="menu-cuatro" accesskey="4"></a>
                 </li>
                 <!-- <li class="nav-menu-item">
-                    <a href="proyectos.html" class="nav-menu-link nav-link" data-translate="menu-cinco"></a>
+                    <a href="proyectos.html" class="nav-menu-link nav-link" data-translate="menu-cinco" accesskey="5"></a>
                 </li> -->
                 <li class="nav-menu-item">
-                    <i id="toggle-lang" class="btn-translate fas fa-globe" data-translate="toggle-button"></i>
+                    <i id="toggle-lang" class="btn-translate fas fa-globe" data-translate="toggle-button" aria-label="Cambiar idioma" accesskey="6"></i>
                 </li>
             </ul>
-
         </nav>
     </header>
 
@@ -96,7 +94,7 @@
 
         <section class="hero">
             <div class="caja">
-                <video autoplay muted loop id="myVideo" class="video-background">
+                <video autoplay muted loop id="myVideo" class="video-background" aria-hidden="true">
                     <source id="videoSource" src="./assets/videos/1V.webm" type="video/webm">
                     <source id="videoSource" src="./assets/videos/1V.mp4" type="video/mp4">
                     Tu navegador no admite el elemento de video.
