@@ -169,8 +169,9 @@
 
 .seccion_cinco_img {
     display: block;
-    width: 200px;
-    height: 250px;
+    width: 400px;
+    height: 300px;
+    /* object-fit: contain; */
     z-index: 99;
 }
 

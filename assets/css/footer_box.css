@@ -126,10 +126,12 @@ footer {
 
 .footer_cajas_dos i {
   color: var(--verde);
+  font-size: 3.2vw;
+  cursor: pointer;
 
 }
 
-.footer_cajas_dos h2 {
+.footer_cajas_dos h3 {
   display: flex;
   font-family: 'Orbitron', sans-serif;
   font-size: 2vw;
@@ -175,7 +177,7 @@ footer {
 }
 
 .footer_cajas_dos li a i {
-  font-size: 3.2vw;
+  
   color: var(--verde);
 }
 
