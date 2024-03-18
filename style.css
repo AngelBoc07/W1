@@ -21,6 +21,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   font-family: 'Raleway', sans-serif;
+  font-display: swap;
   background-image: url("./assets/img/fondos/FondoIA.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
