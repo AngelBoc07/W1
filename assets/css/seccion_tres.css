@@ -11,9 +11,6 @@
     --negro_secundario: #020202;
 }
 
-/* Configuración de caché */
-/* Cache-Control: max-age=31536000, public */
-
 .seccion_caja_tres {
     display: grid;
     grid-template-columns: auto auto auto auto;

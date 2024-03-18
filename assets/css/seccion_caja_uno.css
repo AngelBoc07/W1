@@ -12,10 +12,6 @@
   
 }
 
-/* Configuración de caché */
-/* Cache-Control: max-age=31536000, public */
-
-
 /*---------------contenido_caja--------------------*/
 .contenido_caja {
   grid-column: 1 / span 4;

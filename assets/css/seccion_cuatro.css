@@ -11,10 +11,6 @@
   --negro_secundario: #020202;
 }
 
-/* Configuración de caché */
-/* Cache-Control: max-age=31536000, public */
-
-
 .seccion_caja_origen {
   display: flex;
   flex-direction: column;
@@ -45,7 +41,6 @@
   animation: lineFlow 10s linear infinite;
   -webkit-animation: lineFlow 10s linear infinite;
 } 
-
 
 .texto_cuatro_a {
   font-family: 'Orbitron', Relaway, sans-serif;
@@ -85,8 +80,6 @@
   left: 59em;
   z-index: 4;
 }
-
-
 
 /* Tarjeta */
 
