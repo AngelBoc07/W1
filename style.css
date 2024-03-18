@@ -1,3 +1,6 @@
+/* Configuración de caché */
+/* Cache-Control: max-age=31536000, public */
+
 * {
   margin: 0;
   padding: 0;
