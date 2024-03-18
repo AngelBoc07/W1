@@ -20,7 +20,7 @@
  /*temporales-quitarparahabilitarvideo*/
 .hero{
  
-  background-image: url(../img/fondos/Fondo.webp) loading="lazy";
+  background-image: url(../img/fondos/Fondo.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 150%;
