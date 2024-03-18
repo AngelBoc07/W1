@@ -18,14 +18,16 @@
 }
 
 .hero{
-  /*temporales-quitarparahabilitarvideo*/background-image: url(../img/fondos/Fondo.webp);
+  /*temporales-quitarparahabilitarvideo*/
+  background-image: url(../img/fondos/Fondo.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 150%;
   background-position-x: 20%;
   background-position-y: 80%;
 
-  /******************************/z-index: 5;
+  /******************************/
+  z-index: 5;
 }
 
 .caja {
