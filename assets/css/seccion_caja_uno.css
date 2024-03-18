@@ -115,19 +115,16 @@
 @media (max-width: 768px) {
 
   .hero{
-    /*temporales- quitar para habilitar video*/
-    background-image: url(../img/fondos/Fondo.webp);
+    /*temporales-quitarparahabilitarvideo*/background-image: url(../img/fondos/Fondo.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 150%;
     background-position-x: 20%;
     background-position-y: 3%;
-    animation: movimiento 30s infinite linear alternate;
-    -webkit-animation: movimiento 30s infinite linear alternate; 
-    /******************************/
-  
-    z-index: 5;
-  }
+    animation: movimiento 0s infinite linear alternate;
+    -webkit-animation: movimiento 0s infinite linear alternate;
+    /******************************/z-index: 5;
+}
 
   .caja {
     height: 35vh;
@@ -144,19 +141,16 @@
 @media (max-width: 575.98px) {
 
   .hero{
-    /*temporales- quitar para habilitar video*/
-    background-image: url(../img/fondos/Fondo.webp);
+    /*temporales-quitarparahabilitarvideo*/background-image: url(../img/fondos/Fondo.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 150%;
     background-position-x: 20%;
     background-position-y: 3%;
-    animation: movimiento 30s infinite linear alternate;
-    -webkit-animation: movimiento 30s infinite linear alternate; 
-    /******************************/
-  
-    z-index: 5;
-  }
+    animation: movimiento 0s infinite linear alternate;
+    -webkit-animation: movimiento 0s infinite linear alternate;
+    /******************************/z-index: 5;
+}
 
 
   .caja {
