@@ -9,7 +9,13 @@
   --sombra_tarjeta: #ffff02;
   --negro_principal: #000000;
   --negro_secundario: #020202;
+  
 }
+
+/* Configuración de caché */
+/* Cache-Control: max-age=31536000, public */
+
+
 /*---------------contenido_caja--------------------*/
 .contenido_caja {
   grid-column: 1 / span 4;
