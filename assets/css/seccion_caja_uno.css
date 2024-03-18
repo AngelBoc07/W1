@@ -18,18 +18,14 @@
 }
 
 .hero{
-  /*temporales- quitar para habilitar video*/
-  background-image: url(../img/fondos/Fondo.webp);
+  /*temporales-quitarparahabilitarvideo*/background-image: url(../img/fondos/Fondo.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 150%;
   background-position-x: 20%;
-  background-position-y: 3%;
-  animation: movimiento 30s infinite linear alternate;
-  -webkit-animation: movimiento 30s infinite linear alternate; 
-  /******************************/
+  background-position-y: 80%;
 
-  z-index: 5;
+  /******************************/z-index: 5;
 }
 
 .caja {
@@ -52,14 +48,6 @@
 }
 
 /*************temporales******Quitar para habilitar video*************/
-
-@keyframes movimiento{
-  from{
-    background-position: bottom left;
-  }to{
-    background-position: top right;
-  }
-}
 
 
 .logo_solar{
@@ -122,8 +110,6 @@
     background-size: 150%;
     background-position-x: 20%;
     background-position-y: 3%;
-    animation: movimiento 0s infinite linear alternate;
-    -webkit-animation: movimiento 0s infinite linear alternate;
     /******************************/
     z-index: 5;
 }
@@ -150,8 +136,6 @@
     background-size: 150%;
     background-position-x: 20%;
     background-position-y: 3%;
-    animation: movimiento 0s infinite linear alternate;
-    -webkit-animation: movimiento 0s infinite linear alternate;
     /******************************/
     z-index: 5;
 }
@@ -180,8 +164,6 @@
     background-size: 150%;
     background-position-x: 20%;
     background-position-y: 3%;
-    animation: movimiento 0s infinite linear alternate;
-    -webkit-animation: movimiento 0s infinite linear alternate;
     /******************************/
     z-index: 5;
 }
@@ -207,8 +189,6 @@
     background-size: 150%;
     background-position-x: 20%;
     background-position-y: 3%;
-    animation: movimiento 0s infinite linear alternate;
-    -webkit-animation: movimiento 0s infinite linear alternate;
     /******************************/
     z-index: 5;
 }
@@ -228,8 +208,6 @@
     background-size: 150%;
     background-position-x: 20%;
     background-position-y: 3%;
-    animation: movimiento 0s infinite linear alternate;
-    -webkit-animation: movimiento 0s infinite linear alternate;
     /******************************/
     z-index: 5;
 }
