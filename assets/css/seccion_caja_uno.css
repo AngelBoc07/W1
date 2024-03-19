@@ -15,21 +15,14 @@
 /*---------------contenido_caja--------------------*/
 .contenido_caja {
   grid-column: 1 / span 4;
-  margin-top: calc(9%);
+  margin-top: 9%;
   z-index: 5;
 }
 
  /*temporales-quitarparahabilitarvideo*/
 .hero{
  
-  background-image: url(../img/fondos/Fondo.webp);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 150%;
-  background-position-x: 20%;
-  background-position-y: 80%;
-
-  /******************************/
+  background: url(../img/fondos/Fondo.webp) no-repeat fixed 20% 80%/150%;
   z-index: 5;
 }
 
@@ -39,17 +32,13 @@
   justify-items: end;
   place-self: center;
   margin-top: 2vh;
-  padding: calc(2vw);
+  padding: 2vw;
   position: relative;
   width: 100%;
   height: 77vh;
   overflow: hidden;
   border-radius: 10px 10px 0px 0px;
-  -moz-border-radius: 10px 10px 0px 0px;
-  -webkit-border-radius: 10px 10px 0px 0px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -ms-border-radius: 10px 10px 0px 0px;
-  -o-border-radius: 10px 10px 0px 0px;
 }
 
 /*************temporales******Quitar para habilitar video*************/
@@ -61,8 +50,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
+
 /*******************************/
 
 .video-background {
@@ -75,32 +64,6 @@
 }
 
 
-.caja_img_uno {
-  display: grid;
-  grid-row: 1 / span 2;
-}
-.Marca_empresa {
-  font-family: 'Orbitron', sans-serif;
-  font-weight: 300;
-  font-size: 3vw;
-  color: rgba(255, 255, 255, 0.5);
-  margin-bottom: calc(2vw + 16px);
-  text-shadow: var(--negro_principal) 2px 2px 0; 
-  z-index: 10;
-  grid-area: Logotipo;
-}
-.Logotipo {
-  display: flex;
-  color: var(--blanco_secundario);
-  font-family: 'Orbitron', sans-serif;
-  font-size: 1.5vw;
-  text-shadow: var(--sombra) 2px 2px 0;
-  z-index: 10;
-  grid-area: Logotipo;
-}
-
-
-
 
 
 /* Responsive  Styles --------------------------------------------------------------------------------------------------------- */
@@ -109,9 +72,9 @@
 
   .hero{
     /*temporales-quitarparahabilitarvideo*/
-    background-image: url(../img/fondos/Fondo.webp);
+    /* background-image: url(../img/fondos/Fondo.webp);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     background-size: 150%;
     background-position-x: 20%;
     background-position-y: 3%;
@@ -122,12 +85,12 @@
   .caja {
     height: 35vh;
     margin-top: 1vh;
-    padding: calc(4vw);
+    padding: 4vw;
   }
 
-  .Marca_empresa {
+  /* .Marca_empresa {
     font-size: 2.5vw;
-  }
+  } */
 
 }
 
@@ -135,9 +98,6 @@
 
   .hero{
     /*temporales-quitarparahabilitarvideo*/
-    background-image: url(../img/fondos/Fondo.webp);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: 150%;
     background-position-x: 20%;
     background-position-y: 3%;
@@ -151,10 +111,10 @@
     margin-top: 8vh;
   }
 
-  .Logotipo .logotipo_titulo_movil {
+  /* .Logotipo .logotipo_titulo_movil {
     font-family: 'Raleway', sans-serif;
     font-size: 3vw;
-  }
+  } */
 
 }
 
@@ -163,13 +123,9 @@
 
   .hero{
     /*temporales-quitarparahabilitarvideo*/
-    background-image: url(../img/fondos/Fondo.webp);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: 150%;
     background-position-x: 20%;
     background-position-y: 3%;
-    /******************************/
     z-index: 5;
 }
 
@@ -178,23 +134,19 @@
     margin-top: 5vh;
   }
 
-  .Marca_empresa {
+  /* .Marca_empresa {
     font-size: 2.3vw;
     margin-bottom: calc(1vw + 13px);
-  }
+  } */
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .hero{
     /*temporales-quitarparahabilitarvideo*/
-    background-image: url(../img/fondos/Fondo.webp);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: 150%;
     background-position-x: 20%;
     background-position-y: 3%;
-    /******************************/
     z-index: 5;
 }
   .caja {
@@ -207,9 +159,6 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .hero{
     /*temporales-quitarparahabilitarvideo*/
-    background-image: url(../img/fondos/Fondo.webp);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: 150%;
     background-position-x: 20%;
     background-position-y: 3%;
