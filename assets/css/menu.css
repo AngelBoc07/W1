@@ -344,3 +344,32 @@
     height: 120px;
   }
 }
+@media (min-width: 1439px) and (max-width: 1599px) {
+  .line_logo {
+    height: 14%;
+    top: 87%;
+    left: calc(25.5% + 0.8em);
+  }
+}
+@media (min-width: 1680px) {
+  .line_logo {
+    height: 14%;
+    top: 87%;
+    left: calc(27.8% + 0.8em);
+  }
+}
+@media (min-width: 1920px) {
+  .line_logo {
+    height: 14%;
+    top: 87%;
+    left: calc(28.5% + 0.8em);
+  }
+}
+
+@media (min-width: 2550px) {
+  .line_logo {
+    height: 14%;
+    top: 87%;
+    left: calc(29.5% + 0.8em);
+  }
+}
