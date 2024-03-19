@@ -72,9 +72,6 @@
 
   .hero{
     /*temporales-quitarparahabilitarvideo*/
-    /* background-image: url(../img/fondos/Fondo.webp);
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
     background-size: 150%;
     background-position-x: 20%;
     background-position-y: 3%;
@@ -88,9 +85,6 @@
     padding: 4vw;
   }
 
-  /* .Marca_empresa {
-    font-size: 2.5vw;
-  } */
 
 }
 
@@ -111,10 +105,6 @@
     margin-top: 8vh;
   }
 
-  /* .Logotipo .logotipo_titulo_movil {
-    font-family: 'Raleway', sans-serif;
-    font-size: 3vw;
-  } */
 
 }
 
@@ -134,10 +124,6 @@
     margin-top: 5vh;
   }
 
-  /* .Marca_empresa {
-    font-size: 2.3vw;
-    margin-bottom: calc(1vw + 13px);
-  } */
 }
 
 /* Medium devices (tablets, 768px and up) */
