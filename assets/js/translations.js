@@ -103,15 +103,15 @@ try {
       "seccion-cinco-card_6_D1":
         "Experto en mantenimiento industrial, automatización de sistemas de potencia, I&C, e instalaciones industriales.",
 
-      "seccion-cinco-card_7_T1": "Jhon Henry Cruz Feo",
-      "seccion-cinco-card_7_S2": "Ing. Mecánico",
+      "seccion-cinco-card_7_T1": "Roberto Quinceno Walteros",
+      "seccion-cinco-card_7_S2": "Ing. Mecatrónico",
       "seccion-cinco-card_7_D1":
-        "Experto en diseño, construcción, mantenimiento de facilidades de superficie y control de procesos.",
-
-      "seccion-cinco-card_8_T1": "Roberto Quinceno Walteros",
-      "seccion-cinco-card_8_S2": "Ing. Mecatrónico",
-      "seccion-cinco-card_8_D1":
         "Experto en programación, control  e Integración de procesos industriales.",
+
+        "seccion-cinco-card_8_T1": "Gabriel Fuquen Bocanegra",
+        "seccion-cinco-card_8_S2": "Programador",
+        "seccion-cinco-card_8_D1":
+          "Experto en programación y análisis de datos",
 
       // "seccion-cinco-card_9_T1": "",
       // "seccion-cinco-card_9_S2": "",
@@ -144,9 +144,9 @@ try {
 
       //EEUU
 
-      "ciudad_eeuu_1":"Texas",
-      "zona_eeuu_1":"Houston",
-      "direccion_eeuu_1":"8912 Plum Creek Dr Willow creek apartments - 77012",
+      "ciudad_eeuu_1":"Denver",
+      "zona_eeuu_1":"Colorado",
+      "direccion_eeuu_1":"11650 M.L.K. Jr Blvd,  +1 (720) 989-6999",
 
       //Paises Bajos
 
@@ -172,13 +172,13 @@ try {
 
       "footer-email": "Email:",
       "footer-correo": "cco@sminsl.com",
-      "footer-whatsApp": "WhatsApp:",
-      "footer-phone": "Celular:",
+      "footer-whatsApp": "WhatsApp: +57 320 8853591",
+      "footer-phone": "Telefono: + (601) 651 73 63",
 
       "footer-seguir": "Síguenos en redes sociales",
-      "footer-terminos": "",
+      "footer-terminos": "@ 2024 - Todos los Derechos Reservados",
       "footer-@":
-        "@ 2024-SMIN ENERGY SERVICE COMPANY. Todos los Derechos Reservados",
+        "SMIN ENERGY SERVICE COMPANY (ESCOs).",
       "footer-politicas": "Politicas de Privacidad",
 
       //Pagina proyecto.html 
@@ -332,15 +332,16 @@ try {
       "seccion-cinco-card_6_D1":
         "Expert in industrial maintenance, automation of power systems, I&C, and industrial installations.",
 
-      "seccion-cinco-card_7_T1": "Jhon Henry Cruz Feo",
-      "seccion-cinco-card_7_S2": "Mechanical Engineer",
+      "seccion-cinco-card_7_T1": "Roberto Quinceno Walteros",
+      "seccion-cinco-card_7_S2": "Mechatronics Engineer",
       "seccion-cinco-card_7_D1":
-        "Expert in design, construction, maintenance of surface facilities, and process control.",
-
-      "seccion-cinco-card_8_T1": "Roberto Quinceno Walteros",
-      "seccion-cinco-card_8_S2": "Mechatronics Engineer",
-      "seccion-cinco-card_8_D1":
         "Expert in programming, control, and integration of industrial processes.",
+
+        
+      "seccion-cinco-card_8_T1": "Gabriel Fuquen Bocanegra",
+      "seccion-cinco-card_8_S2": "Programmer",
+      "seccion-cinco-card_8_D1":
+        "Expert in programming and data analysis",
 
       // "seccion-cinco-card_9_T1": "",
       // "seccion-cinco-card_9_S2": "",
@@ -373,9 +374,9 @@ try {
 
       //EEUU
 
-      "ciudad_eeuu_1":"Texas",
-      "zona_eeuu_1":"Houston",
-      "direccion_eeuu_1":"8912 Plum Creek Dr Willow creek apartments",
+      "ciudad_eeuu_1":"Denver",
+      "zona_eeuu_1":"Colorado",
+      "direccion_eeuu_1":"11650 M.L.K. Jr Blvd,  +1 (720) 989-6999",
 
       //Paises Bajos
 
@@ -399,10 +400,8 @@ try {
 
       "footer-email": "Email:",
       "footer-correo": "   cco@sminsl.com",
-      "footer-whatsApp": "WhatsApp:    +57 000 000 0000",
-      "footer-whatsApp-num": "",
-      "footer-phone": "Cellphone   +601 000 000 00:",
-      "footer-phone-num": "Cellphone:",
+      "footer-whatsApp": "WhatsApp:    +57 320 8853591",
+      "footer-phone": "Phone: + (601) 651 73 63",
 
       "footer-seguir": "Follow us on social media",
       "footer-terminos": "@ 2024 All Rights Reserved",
