@@ -108,20 +108,20 @@ try {
       "seccion-cinco-card_7_D1":
         "Experto en diseño, construcción, mantenimiento de facilidades de superficie y control de procesos.",
 
-      // "seccion-cinco-card_8_T1": "Ing. Wendy Delgado Diáz",
-      // "seccion-cinco-card_8_S2": "Ing. Electrónica",
-      // "seccion-cinco-card_8_D1":
-      //   "Especialista en mantenimiento de sistemas fotovoltaicos y riesgos laborales asociados a la instalación, operación y mantenimiento de sistemas fotovoltaicos.",
-
-      // "seccion-cinco-card_9_T1": "Ing. Fabio Ignacio León Sanguino",
-      // "seccion-cinco-card_9_S2": "Ing. Electricista",
-      // "seccion-cinco-card_9_D1":
-      //   "Especialista en construcción y mantenimiento de redes de distribución, subestaciones de transformación de energia y plantas de energia solar.",
-
-      "seccion-cinco-card_10_T1": "Roberto Quinceno Walteros",
-      "seccion-cinco-card_10_S2": "Ing. Mecatrónico",
-      "seccion-cinco-card_10_D1":
+      "seccion-cinco-card_8_T1": "Roberto Quinceno Walteros",
+      "seccion-cinco-card_8_S2": "Ing. Mecatrónico",
+      "seccion-cinco-card_8_D1":
         "Experto en programación, control  e Integración de procesos industriales.",
+
+      // "seccion-cinco-card_9_T1": "",
+      // "seccion-cinco-card_9_S2": "",
+      // "seccion-cinco-card_9_D1":
+      //   "",
+
+      // "seccion-cinco-card_10_T1": "",
+      // "seccion-cinco-card_10_S2": "",
+      // "seccion-cinco-card_10_D1":
+      //   "",
 
       //Maps
 
@@ -337,20 +337,20 @@ try {
       "seccion-cinco-card_7_D1":
         "Expert in design, construction, maintenance of surface facilities, and process control.",
 
-      // "seccion-cinco-card_8_T1": "Eng. Wendy Delgado Diáz",
-      // "seccion-cinco-card_8_S2": "Electronic E.",
-      // "seccion-cinco-card_8_D1":
-      //   "Specialist in maintenance of photovoltaic systems and occupational hazards associated with the installation, operation, and maintenance of photovoltaic systems.",
-
-      // "seccion-cinco-card_9_T1": "Eng. Fabio Ignacio León Sanguino",
-      // "seccion-cinco-card_9_S2": "Electrical E.",
-      // "seccion-cinco-card_9_D1":
-      //   "Specialist in construction and maintenance of distribution networks, energy transformation substations, and solar power plants",
-
-      "seccion-cinco-card_10_T1": "Roberto Quinceno Walteros",
-      "seccion-cinco-card_10_S2": "Mechatronics Engineer",
-      "seccion-cinco-card_10_D1":
+      "seccion-cinco-card_8_T1": "Roberto Quinceno Walteros",
+      "seccion-cinco-card_8_S2": "Mechatronics Engineer",
+      "seccion-cinco-card_8_D1":
         "Expert in programming, control, and integration of industrial processes.",
+
+      // "seccion-cinco-card_9_T1": "",
+      // "seccion-cinco-card_9_S2": "",
+      // "seccion-cinco-card_9_D1":
+      //   "",
+
+      // "seccion-cinco-card_10_T1": "",
+      // "seccion-cinco-card_10_S2": "",
+      // "seccion-cinco-card_10_D1":
+      //   "",
 
       //Maps
 
