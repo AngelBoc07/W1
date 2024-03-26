@@ -93,38 +93,38 @@ function intersecta(a, b) {
 
 //------------------------------------------------------------------------------------------------------------------
 
-var listaItems = document.querySelectorAll(".lista_origen_texto");
-const tiempoTransicion = 2000;
+// var listaItems = document.querySelectorAll(".lista_origen_texto");
+// const tiempoTransicion = 2000;
 
-listaItems.forEach(function (item, index) {
-  item.addEventListener("mouseover", function () {
-    cambiarImagen(index);
-  });
-});
+// listaItems.forEach(function (item, index) {
+//   item.addEventListener("mouseover", function () {
+//     cambiarImagen(index);
+//   });
+// });
 
-function cambiarImagen(index) {
-  var imagen = document.querySelector(".origen_imagen img");
-  // imagen.style.transition = 'opacity 0.5s ease-in-out';
+// function cambiarImagen(index) {
+//   var imagen = document.querySelector(".origen_imagen img");
+//   // imagen.style.transition = 'opacity 0.5s ease-in-out';
 
-  imagen.style.opacity = "0";
-  setTimeout(function () {
-    switch (index) {
-      case 0:
-        imagen.src = "./assets/img/Secciones/1M.webp";
-        break;
-      case 1:
-        imagen.src = "./assets/img/Secciones/2M.webp";
-        break;
-      case 2:
-        imagen.src = "./assets/img/Secciones/3M.webp";
-        break;
-      case 3:
-        imagen.src = "./assets/img/Secciones/4M.webp";
-        break;
-    }
-    imagen.style.opacity = "1";
-  }, 0);
-}
+//   imagen.style.opacity = "0";
+//   setTimeout(function () {
+//     switch (index) {
+//       case 0:
+//         imagen.src = "./assets/img/Secciones/1M.webp";
+//         break;
+//       case 1:
+//         imagen.src = "./assets/img/Secciones/2M.webp";
+//         break;
+//       case 2:
+//         imagen.src = "./assets/img/Secciones/3M.webp";
+//         break;
+//       case 3:
+//         imagen.src = "./assets/img/Secciones/4M.webp";
+//         break;
+//     }
+//     imagen.style.opacity = "1";
+//   }, 0);
+// }
 
 //------------------------------BTN UP----------------------------------------------
 

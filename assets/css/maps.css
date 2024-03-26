@@ -309,7 +309,7 @@
   -moz-border-radius: 13px;
   -ms-border-radius: 13px;
   -o-border-radius: 13px;
-  z-index: 10;
+  z-index: 100;
 }
 
 .section_maps_inf div:last-child {
@@ -350,6 +350,13 @@
 
 .section_maps_inf {
   display: none;
+}
+
+.location-maps{
+  color: var(--blanco_principal);
+  font-family: 'Raleway', Orbitron, sans-serif;
+  font-size: 1.2em;
+  z-index: 100;
 }
 
 

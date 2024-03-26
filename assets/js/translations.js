@@ -160,9 +160,6 @@ try {
       "zona_portugal_1":"Avenida Bento de Freitas",
       "direccion_portugal_1":"Celular: (+35) 1 938460930",
 
-
-
-
       //Contacto footer
 
       "footer-titulo": "Para más información, contáctenos",
@@ -172,7 +169,8 @@ try {
 
       "footer-email": "Email:",
       "footer-correo": "cco@sminsl.com",
-      "footer-whatsApp": "WhatsApp: +57 320 8853591",
+      "footer-whatsApp": "Celular: +57 320 8853591",
+      "footer-texto-whatsApp": "Contactame por WhatsApp",
       "footer-phone": "Telefono: + (601) 651 73 63",
 
       "footer-seguir": "Síguenos en redes sociales",
@@ -400,7 +398,9 @@ try {
 
       "footer-email": "Email:",
       "footer-correo": "   cco@sminsl.com",
-      "footer-whatsApp": "WhatsApp:    +57 320 8853591",
+      "footer-whatsApp": "Cellphone:    +57 320 8853591",
+      "footer-texto-whatsApp": "Contact me via WhatsApp",
+      "footer-texto-chat": "I am interested in acquiring solar energy equipment for my home/business.",
       "footer-phone": "Phone: + (601) 651 73 63",
 
       "footer-seguir": "Follow us on social media",
@@ -461,10 +461,6 @@ try {
       "parrafo_cookies":"We use our own and third-party cookies to improve our services.",
       "boton_cookies":"Agreed",
       "avisos_cookies":"Cookie Notice",
-
-
-
-
 
     },
   };

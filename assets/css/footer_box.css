@@ -98,14 +98,23 @@ footer {
   margin-bottom: 1vw;
 }
 
+.footer_datos .footer_datos-whatsapp{
+  margin-bottom: 1vw;
+}
+
 .footer_datos .footer_datos_lista a {
   color: var(--verde);
+  text-decoration: none;
 }
 
 .footer_datos .fa-estilo {
   font-size: 1.5vw;
   font-weight: 700;
   margin-right: 10px;
+  color: var(--verde);
+}
+
+.fa-whatsapp{
   color: var(--verde);
 }
 
