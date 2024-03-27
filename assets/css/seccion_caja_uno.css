@@ -21,8 +21,6 @@
 
  /*temporales-quitarparahabilitarvideo*/
 .hero{
- 
-  /* background: url(../img/fondos/Fondo.webp) no-repeat fixed 20% 80%/150%; */
   z-index: 5;
   background-image: url(../img/fondos/Fondo.webp);
   background-repeat: no-repeat;
