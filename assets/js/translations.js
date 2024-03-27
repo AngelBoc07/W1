@@ -1,3 +1,5 @@
+//El texto contenido en el HTML solo es para SEO, mas no determinante en la traduccion
+
 let translations;
 
 try {
