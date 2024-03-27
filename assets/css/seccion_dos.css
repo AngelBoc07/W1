@@ -178,26 +178,6 @@
 
 }
 
-/* Styles for Motorola Edge 30 and similar devices */
-/* @media (max-width: 360px) {
-
- 
-  .caja-nosotros-uno {
-    width: 15em;
-    height: 13em;
-    top: 2.3em;
-    left: 0.3em;
-  }
-
-  .caja-nosotros-dos {
-    width: 15em;
-    height: 2em;
-    top: 12.4em;
-    left: 4em;
-  }
-
-} */
-
 @media (max-width: 575.98px) {
 
   .seccion_caja_dos {
