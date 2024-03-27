@@ -22,8 +22,12 @@
  /*temporales-quitarparahabilitarvideo*/
 .hero{
  
-  background: url(../img/fondos/Fondo.webp) no-repeat fixed 20% 80%/150%;
+  /* background: url(../img/fondos/Fondo.webp) no-repeat fixed 20% 80%/150%; */
   z-index: 5;
+  background-image: url(../img/fondos/Fondo.webp);
+  background-repeat: no-repeat;
+  background-position: 20% 80%; 
+  background-size: 150%;
 }
 
 .caja {
@@ -138,6 +142,7 @@
   .caja {
     height: 38vh;
     margin-top: 2vh;
+    padding: 2vw;
   }
 }
 
