@@ -179,7 +179,13 @@
 
 .img_card:hover {
     transform: rotateY(10deg);
+    border: solid 3px var(--negro_principal);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    z-index: -1;
+    transition: opacity 0.5s ease;
+    
 }
 
 .img_card:hover .img_card_container img {
@@ -200,7 +206,7 @@
     color: var(--blanco_principal);
 }
 
-.img_card:before,
+/* .img_card:before,
 .img_card_content::before {
     content: '';
     position: absolute;
@@ -213,7 +219,7 @@
     z-index: -1;
     transition: opacity 0.5s ease;
     opacity: 0;
-}
+} */
 
 .img_card:hover:before {
     opacity: 1;

@@ -166,6 +166,8 @@
 .img_card_cuatro:hover {
   transform: rotateY(10deg);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.8);
+  border: solid 3px var(--negro_principal);
 }
 
 .img_card_cuatro:hover .img_card_container_cuatro img {
@@ -186,7 +188,7 @@
   color: var(--blanco_principal);
 }
 
-.img_card_cuatro:before,
+/* .img_card_cuatro:before,
 .img_card_content_cuatro::before {
   content: '';
   position: absolute;
@@ -199,11 +201,11 @@
   z-index: -1;
   transition: opacity 0.5s ease;
   opacity: 0;
-}
+} */
 
-.img_card_cuatro:hover:before {
+/* .img_card_cuatro:hover:before {
   opacity: 1;
-}
+} */
 
 
 .img_card_cuatro:hover .title_cuatro,

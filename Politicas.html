@@ -159,40 +159,51 @@
                 <h2 data-translate="footer-informacion"></h2>
                 <address class="footer_datos">
                     <ul>
-                        <li class="footer_datos_lista"><i class="fa-regular fa-envelope fa-estilo"></i><span
-                                data-translate="footer-email"></span> cco@sminsl.com</li>
-                        <!-- <li class="footer_datos_lista"><i class="fa-brands fa-whatsapp fa-estilo"></i><span
-                                data-translate="footer-whatsApp"></span></li> -->
-                        <a href="https://api.whatsapp.com/send?phone=573123456789&text=Hola,%20estoy%20interesado%20en%20tu%20producto" class="footer_datos_lista">
-                                    <i class="fa-brands fa-whatsapp fa-estilo"></i> Contactame por WhatsApp
-                        </a>
-                                  
-                        <li class="footer_datos_lista"><i class="fa-regular fa-mobile-button fa-estilo"></i><span
-                                data-translate="footer-phone"></span></li>
+                        <li class="footer_datos_lista"><i class="fa-regular fa-envelope fa-estilo" aria-hidden="true"></i><span
+                                data-translate="footer-email"></span><a href="mailto:cco@sminsl.com"
+                                data-translate="footer-correo" title="Contact us via email"></a>
+                        </li>
+
+                        <li class="footer_datos_lista">
+                            <a class="footer_datos-whatsapp" title="Contact us via WhatsApp" href="https://api.whatsapp.com/send?phone=573208853591&text=I%20am%20interested%20in%20acquiring%20solar%20energy%20equipment%20for%20my%20home/business." target="_blank">
+                            <i class="fa-brands fa-whatsapp fa-estilo" aria-hidden="true"></i> <span data-translate="footer-texto-whatsApp"></span></a>
+                        </li>
+                        
+                        <li class="footer_datos_lista"><i class="fa-regular fa-phone fa-estilo" aria-hidden="true"></i><span
+                            data-translate="footer-phone"></span></li>
+                        
+                        <li class="footer_datos_lista"><i class="fa-regular fa-mobile-button fa-estilo" aria-hidden="true"></i><span
+                                data-translate="footer-whatsApp"></span> </li>
                     </ul>
                 </address>
             </div>
 
             <div class="footer_cajas_dos">
-                <h2 data-translate="footer-seguir"></h2>
+                <h3 data-translate="footer-seguir"></h3>
                 <ul>
-                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Síguenos en Facebook" title="Follow us on Facebook"></a><i class="fa-brands fa-facebook"></i></a>
                     </li>
-                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Síguenos en  Twiter" title="Follow us on Twiter"></a><i class="fa-brands fa-x-twitter"></i></a>
                     </li>
-                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Síguenos en Instagram" title="Follow us on Instagram"></a><i class="fa-brands fa-instagram"></i></a>
                     </li>
-                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Síguenos en Linkedin" title="Follow us on Linkedin"></a><i class="fa-brands fa-linkedin"></i></a>
                     </li>
                 </ul>
             </div>
             <div class="copy">
                 <p data-translate="footer-terminos"></p>
                 <p data-translate="footer-@"></p>
-                <p data-translate="footer-politicas"></p>
+                <p class="footer-politicos">
+                    <a href="Politicas.html" target="_self" rel="noopener noreferrer"
+                        data-translate="footer-politicas" title="Privacy Policies"></a>
+                </p>
             </div>
         </section>
     </footer>
+
+
+
     <script defer src="https://kit.fontawesome.com/4f6ab0d097.js" crossorigin="anonymous"></script>
     <script defer src="./assets/js/jsc.js"></script>
     <script type="module" src="./assets/js/main.js"></script>
