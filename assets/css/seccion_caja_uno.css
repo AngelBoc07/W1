@@ -22,7 +22,7 @@
   background-position: 20% 80%;
   background-size: 150%;
   height: 35vw; /* Altura relativa al ancho del viewport */
-  max-height: 500px; /* Altura máxima en píxeles */
+  max-height: 320px; /* Altura máxima en píxeles */
 }
 
 
@@ -61,6 +61,7 @@
     background-position-x: 20%;
     background-position-y: 3%; */
     height: 45vw;
+    
     /******************************/
 
 }
@@ -71,15 +72,10 @@
 
 
   .hero{
-    /*temporales-quitarparahabilitarvideo*/
-    /* background-image: url(../img/fondos/Fondo_movil.webp); */
-    /* background-size: 100%;
-    background-position-x: 20%;
-    background-position-y: 20%; */
-    /******************************/
     margin-top: 16vw;
     height: 45vw;
-    padding: 0vw;
+    max-height: 200px;
+    padding: 0;
 
 }
 
