@@ -162,6 +162,26 @@ mapsdesktop.addEventListener('mouseleave', function(event) {
     }
 });
 
+// Opcional: Detener el parpadeo después de un cierto tiempo (por ejemplo, después de 10 segundos)
+const blinkingIcon = document.querySelector('.blinking-icon');
+let zoomTimeout;
+let zoomFactor = 1;
+
+function zoom() {
+  blinkingIcon.style.transform = `scale(${zoomFactor})`;
+  zoomFactor = zoomFactor === 1 ? 1.2 : 1; // Alternar entre el tamaño normal y un tamaño aumentado (ajusta según sea necesario)
+  zoomTimeout = setTimeout(zoom, 1550); // Ajusta el tiempo de espera según el efecto de zoom deseado
+}
+
+zoom(); // Iniciar el efecto de zoom al cargar la página
+
+// Opcional: Detener el efecto de zoom después de un cierto tiempo (por ejemplo, después de 10 segundos)
+setTimeout(() => {
+  clearTimeout(zoomTimeout);
+}, 10000); // 10 segundos
+
+
+
 
 
 
