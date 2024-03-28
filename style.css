@@ -41,6 +41,12 @@ section[id] {
   scroll-margin: 65px;
 }
 
+/* ---------------contenido_caja-------------------- */
+.contenido_caja {
+  margin-top: 9%;
+  /* z-index: 5; */
+}
+
 /*----------menu----------------*/
 
 nav.menu li:hover {
