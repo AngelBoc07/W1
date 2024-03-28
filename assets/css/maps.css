@@ -364,7 +364,7 @@
 
 .blinking-icon-inf {
   color: var(--verde_pin);
-  font-size: 1.2em;
+  font-size: 0em;
   position: absolute;
   top: 70%;
   left: 10px;
