@@ -65,9 +65,6 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .hero { 
-    background-size: 150%;
-    background-position-x: 20%;
-    background-position-y: 3%;
     z-index: 5;
   }
 }
