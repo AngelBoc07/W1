@@ -73,7 +73,7 @@
     background-position-y: 3%; */
     height: 45vw;
     /******************************/
-    z-index: 5;
+
 }
 
 }
@@ -91,7 +91,7 @@
     margin-top: 16vw;
     height: 45vw;
     padding: 0vw;
-    z-index: 5;
+
 }
 
 
@@ -110,10 +110,10 @@
     z-index: 5;
 }
 
-  .caja {
+  /* .caja {
     height: 71vh;
     margin-top: 5vh;
-  }
+  } */
 
 }
 
@@ -126,11 +126,11 @@
     background-position-y: 3%; */
     z-index: 5;
 }
-  .caja {
+  /* .caja {
     height: 38vh;
     margin-top: 2vh;
     padding: 2vw;
-  }
+  } */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -143,8 +143,8 @@
     /******************************/
     z-index: 5;
 }
-  .caja {
+  /* .caja {
     height: 60vh;
     margin-top: 1vh;
-  }
+  } */
 }
