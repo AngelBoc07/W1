@@ -181,6 +181,38 @@ setTimeout(() => {
 }, 10000); // 10 segundos
 
 
+// Obtiene la ubicación 
+document.querySelectorAll('.pin span').forEach(function(element) {
+  element.addEventListener('click', function() {
+      var location = element.getAttribute('data-translate'); // Obtiene la ubicación del atributo data-translate
+      var url; // URL del mapa personalizado
+
+      // Utilizamos switch-case para manejar diferentes ubicaciones
+      switch (location) {
+          case 'pin-colombia':
+              url = 'https://maps.app.goo.gl/34gsHW1wr8KYRTt7A';
+              break;
+          case 'pin-eeuu':
+              url = 'https://maps.app.goo.gl/6DFDp9Y29S1pvwaJ7';
+              break;
+          case 'pin-paisesbajos':
+              url = 'https://maps.app.goo.gl/FXA9sp5vSBnRy7kv8';
+              break;
+          case 'pin-portu':
+              url = 'https://maps.app.goo.gl/FXA9sp5vSBnRy7kv8';
+              break;
+          // Puedes agregar más casos para otras ubicaciones aquí si es necesario
+          default:
+              // Si no se reconoce la ubicación, no hace nada
+              return;
+      }
+
+      // Abre el mapa personalizado en una nueva pestaña
+      window.open(url, '_blank');
+  });
+});
+
+
 
 
 

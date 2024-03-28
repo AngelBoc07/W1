@@ -131,8 +131,8 @@ try {
       "seccion-maps-Smin": "Smin Ltda.",
       "pin-colombia":"Colombia",
       "pin-eeuu":"Estados Unidos",
-      "pin-paises-bajos":"Países Bajos",
-      "pin-portugal":"Portugal",
+      "pin-paisesbajos":"Países Bajos",
+      "pin-portu":"Portugal",
 
       //Colombia
 
@@ -359,8 +359,8 @@ try {
       "seccion-maps-Smin": "Smin Ltd.",
       "pin-colombia":"Colombia",
       "pin-eeuu":"United States",
-      "pin-paises-bajos":"Países Bajos",
-      "pin-portugal":"Portugal",
+      "pin-paisesbajos":"Países Bajos",
+      "pin-portu":"Portugal",
 
       //Colombia
 

@@ -213,46 +213,14 @@
 .ubicacion_listado{
   display: flex;
   position: absolute;
-  top: 200%;
-  left: 150%;
   list-style-type: none;
 }
-.ubicacion_listado_EU{
-  top: 200%;
-  left: 150%;
-}
 
-.ubicacion_listado_CO{
-  top: 150%;
-  left: 50%;
-}
-
-.ubicacion_listado_PB{
-  top: 10%;
-  left: 140%;
-}
-
-.ubicacion_listado_POR{
-  top: 10%;
-  left: 140%;
-}
 .ubicacion{
-  color: var(--blanco_secundario) !important;
-  font-size: 12px;
+  color: var(--verde) !important;
+  font-size: 1px;
   left: 10%;
-  filter: drop-shadow(10px 7px 20px rgba(4, 247, 4, 0.9));
 }
-
-@keyframes zoom {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.2); }
-  100% { transform: scale(1); }
-}
-
-.blinking-icon {
-  animation: zoom 2s infinite; /* Ajusta la duración de la animación según lo desees */
-}
-
 
 .section_maps_desktop {
   display: flex;
