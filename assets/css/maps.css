@@ -300,19 +300,20 @@
 .maps-inf {
   display: flex;
   flex-direction: column;
-  width: 15%;
+  width: 19%;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.5);
   border: var(--verde) solid 0.1rem;
-  border-radius: 13px;
-  margin-right: 2%;
+  border-radius: 10px;
+  margin-right: 1%;
   align-content: center;
   padding: 0 0 1% 0;
-  -webkit-border-radius: 13px;
-  -moz-border-radius: 13px;
-  -ms-border-radius: 13px;
-  -o-border-radius: 13px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
   z-index: 100;
+  position: relative;
 }
 
 .section_maps_inf div:last-child {
@@ -349,6 +350,28 @@
   text-align: center;
   font-family: 'Raleway', Orbitron, sans-serif;
   font-size: 0.7em;
+}
+
+.ubicacion_listado-inf{
+  list-style-type: none;
+  font-size: 0.7em;
+  
+}
+
+.ubicacion-inf{
+  text-decoration: none;
+  color: var(--verde_pin);
+  font-weight: bold;
+  margin-top: 10%;
+}
+
+.blinking-icon-inf{
+  color: var(--verde_pin);
+  font-size: 1.2em;
+  position: absolute;
+  top:70%;
+  left: 10px;
+  display: none;
 }
 
 
@@ -567,6 +590,17 @@
 
   .maps-inf span {
     font-size: 0.5em;
+  }
+
+  .ubicacion-inf{
+    margin-top: 10%;
+  }
+  
+  .blinking-icon-inf{
+ 
+    font-size: 0.2em;
+    top:70%;
+    
   }
 
 
