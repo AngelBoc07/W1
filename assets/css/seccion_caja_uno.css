@@ -31,6 +31,7 @@
 @media (max-width: 768px) {
 
   .hero {
+    background-image: url(../img/fondos/Fondo_movil.webp);
     height: 45vw;
 
   }
@@ -39,6 +40,7 @@
 
 @media (max-width: 575.98px) {
   .hero {
+    background-image: url(../img/fondos/Fondo_movil.webp);
     margin-top: 16vw;
     height: 40vw;
     max-height: 200px;
