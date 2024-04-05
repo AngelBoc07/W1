@@ -40,11 +40,11 @@
 
 @media (max-width: 575.98px) {
   .hero {
-    /* margin-top: 16vw;
+    margin-top: 16vw;
     height: 40vw;
     max-height: 200px;
-    padding: 0; */
-    display: none;
+    padding: 0;
+
 
   }
 }
