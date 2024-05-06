@@ -199,7 +199,7 @@ document.querySelectorAll('.pin span').forEach(function(element) {
               url = 'https://maps.app.goo.gl/FXA9sp5vSBnRy7kv8';
               break;
           case 'pin-portu':
-              url = 'https://maps.app.goo.gl/FXA9sp5vSBnRy7kv8';
+              url = 'https://maps.app.goo.gl/PoS6z7uLH9D6MAc18';
               break;
           // Puedes agregar más casos para otras ubicaciones aquí si es necesario
           default:
